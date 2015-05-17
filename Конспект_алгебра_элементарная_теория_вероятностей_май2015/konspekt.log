@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  17 MAY 2015 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  17 MAY 2015 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,7 +901,12 @@ LaTeX Font Warning: Font shape `OMS/ftm/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 58.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 63.
+LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <17.28> not available
+(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 77.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -909,17 +914,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 80.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 80.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 80.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 80.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 80.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 80.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 116.
+[2]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 146.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
 
 (/home/osabio/Документы/Конспект_алгебра_элемент
 арная_теория_вероятностей_май2015/konspekt.aux
@@ -927,38 +959,39 @@ LaTeX Font Info:    Try loading font information for OT1+ftm on input line 20.
 (/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
 File: ot1ftm.fd 2014/01/03 Fontinst v1.933 font definitions for OT1/ftm.
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `konspekt.out' has not changed.
-(rerunfilecheck)             Checksum: F8FEAA3B2CF0BF58A8B8F997713CE7BB;98.
+(rerunfilecheck)             Checksum: 52DCA8FF603D7655475347480BF323BD;392.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 11952 strings out of 494507
- 164688 string characters out of 6173545
- 241938 words of memory out of 5000000
- 14973 multiletter control sequences out of 15000+600000
- 18167 words of font info for 47 fonts, out of 8000000 for 9000
+ 11986 strings out of 494507
+ 165066 string characters out of 6173545
+ 246938 words of memory out of 5000000
+ 14984 multiletter control sequences out of 15000+600000
+ 23901 words of font info for 55 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 29i,11n,43p,469b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,12n,43p,469b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.enc}</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/scalable-cy
-rfonts-tex/ftmb6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-te
-x/ftmr6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmri6w
-.pfb>
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts
+-tex/ftmb6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmr
+6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmri6w.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 Output written on /home/osabio/Документы/Конспект_алгебр
 а_элементарная_теория_вероятностей_май2015/ko
-nspekt.pdf (1 page, 138637 bytes).
+nspekt.pdf (3 pages, 164301 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
