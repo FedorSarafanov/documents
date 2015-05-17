@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1431896041 "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.tex" "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.pdf" "konspekt" 1431896042
+["pdflatex"] 1431896763 "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.tex" "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.pdf" "konspekt" 1431896764
   "/etc/texmf/web2c/texmf.cnf" 1431248328 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/osabio/.texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1431252450 3240 c2435f2b5cd66d4930bc29b8df87967e ""
-  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.aux" 1431896041 1504 6b07bc11707846eaed02a876684a58c8 ""
-  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.tex" 1431896040 6480 26a405dfc6015d72a33c719c42e7eddb ""
+  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.aux" 1431896764 1504 6b07bc11707846eaed02a876684a58c8 ""
+  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.tex" 1431896759 7173 4a4ac8d690fd91e2ecabfca8bc3d8c75 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1136768653 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -123,13 +123,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1424169028 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1431253187 150436 ac0d383a34be63e221ccc548b3c4da51 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1431248444 978546 6580f9cb4556794b1858ee75885079d9 ""
-  "konspekt.aux" 1431896041 1504 6b07bc11707846eaed02a876684a58c8 ""
-  "konspekt.out" 1431896041 392 52dca8ff603d7655475347480bf323bd ""
-  "konspekt.tex" 1431896040 6480 26a405dfc6015d72a33c719c42e7eddb ""
+  "konspekt.aux" 1431896764 1504 6b07bc11707846eaed02a876684a58c8 ""
+  "konspekt.out" 1431896764 392 52dca8ff603d7655475347480bf323bd ""
+  "konspekt.tex" 1431896759 7173 4a4ac8d690fd91e2ecabfca8bc3d8c75 ""
   (generated)
   "konspekt.out"
-  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.pdf"
-  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.log"
   "konspekt.log"
-  "konspekt.pdf"
   "konspekt.aux"
+  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.log"
+  "/home/osabio/Документы/Конспект_алгебра_элементарная_теория_вероятностей_май2015/konspekt.pdf"
+  "konspekt.pdf"
