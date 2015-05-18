@@ -6,6 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage{cyrtimes}
+\usepackage{misccorr}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 \usepackage{graphicx} % для вставки картинок
@@ -20,12 +21,11 @@
 \renewcommand{\rmdefault}{ftm} % Times New Roman
 \frenchspacing
 \usepackage{geometry}
-\geometry{left=3cm,right=1cm,top=2cm,bottom=2cm,bindingoffset=0cm}
+\geometry{left=3cm,right=2cm,top=3cm,bottom=3cm,bindingoffset=0cm}
 \usepackage{titlesec}
 % \definecolor{black}{rgb}{0,0,0}
 % \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
 \usepackage[unicode]{hyperref}
-\usepackage{misccorr} % Точки после нумерации разделов
 \usepackage{fancyhdr} %загрузим пакет
 \pagestyle{fancy} %применим колонтитул
 \fancyhead{} %очистим хидер на всякий случай
@@ -35,22 +35,48 @@
 \fancyfoot{} %футер будет пустой
 \fancyfoot[CO,CE]{\thepage}
 \renewcommand{\labelenumii}{\theenumii)}
+
+% \newcounter{define_count}\setcounter{define_count}{0}
+% \newenvironment{define}[1][Определение]{%
+%  \refstepcounter{define_count}%
+%  \label{def:\arabic{define_count}}%
+%  \textbf{#1 \arabic{define_count}.\\}%
+%  }
+%  {}
+
+\usepackage{amsthm}
+\newtheorem{define}{Определение}
+
 \begin{document}
 
-\section{Классическая вероятность}
+\section{Определение классической вероятности}
 
-\textbf{Определение 1}\\
+\begin{define}
 Случайное событие - это событие, которое может произойти некого опыта, а может и не наступить.
+\end{define}
 
-\textbf{Определение 2}\\
-События, которые нельзя разбить на более простые, именуют \textit{элементарными}.
+\begin{define}
+События, которые нельзя разбить на более простые, именуют \textbf{элементарными}.
+\end{define}
 
-\textbf{Определение 3}\\
-Элементарные события, при которых наступает событие $A$, называют \textit{благоприятствующими} событию $A$.
+\begin{define}
+Элементарные события, при которых наступает событие $A$, называют \textbf{благоприятствующими} событию $A$.
+\end{define}
 
-\subsection*{Формула классической вероятности. Определение.}
+\begin{define}[Формула классической вероятности]
 Вероятностью $P$ события $A$ --- $P(A)$ называют отношение $m$ благоприятствующих исходов этого события к числу $n$  равновозможных исходов.
 $$P(A)=\frac{m}{n}$$
+\end{define}
+
+\begin{tabular}{p{0.2\linewidth}|p{0.6\linewidth}}
+{%
+\textbf{Дано:}
+
+} & {%
+\textbf{Решение:}
+
+}
+\end{tabular}
 
 \subsection{Задача}
 На клавиатуре телефона 10 цифр ${0..9}$. Какова вероятность того, что случайно набранная цифра будет четной? А будет меньше 4? Или будет четной и больше 3?
@@ -178,5 +204,9 @@ $$P(A)=\frac{m}{n}=\frac{18}{900}=0.02$$
 		\end{align*}
 	}			
 \end{enumerate}
+
+
+
+
 
 \end{document}
