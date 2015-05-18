@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1431974070 "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.tex" "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.pdf" "startteorver" 1431974070
+["pdflatex"] 1431974491 "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.tex" "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.pdf" "startteorver" 1431974492
   "/etc/texmf/web2c/texmf.cnf" 1431248328 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/osabio/.texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1431252450 3240 c2435f2b5cd66d4930bc29b8df87967e ""
-  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.aux" 1431974070 1867 bedd18ece27e8b249eff66dd727ed06f ""
-  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.tex" 1431974068 5730 a259480035f1ab31798d00b6ed22c2c8 ""
+  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.aux" 1431974492 1867 bedd18ece27e8b249eff66dd727ed06f ""
+  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.tex" 1431974490 5730 af893df675c755d720143bf84cc88620 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1136768653 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -122,13 +122,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1424169028 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1431253187 150436 ac0d383a34be63e221ccc548b3c4da51 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1431248444 978546 6580f9cb4556794b1858ee75885079d9 ""
-  "startteorver.aux" 1431974070 1867 bedd18ece27e8b249eff66dd727ed06f ""
-  "startteorver.out" 1431974070 666 3977a13e397ca1fc6ef4b7410743ea27 ""
-  "startteorver.tex" 1431974068 5730 a259480035f1ab31798d00b6ed22c2c8 ""
+  "startteorver.aux" 1431974492 1867 bedd18ece27e8b249eff66dd727ed06f ""
+  "startteorver.out" 1431974492 666 3977a13e397ca1fc6ef4b7410743ea27 ""
+  "startteorver.tex" 1431974490 5730 af893df675c755d720143bf84cc88620 ""
   (generated)
-  "startteorver.out"
   "startteorver.log"
+  "startteorver.out"
   "startteorver.pdf"
-  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.log"
-  "startteorver.aux"
   "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.pdf"
+  "startteorver.aux"
+  "/home/osabio/Документы/Конспект_алгебра_начала_теории_вероятностей_май2015/startteorver.log"
