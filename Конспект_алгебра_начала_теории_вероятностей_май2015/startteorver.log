@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  18 MAY 2015 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  18 MAY 2015 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,7 +903,7 @@ LaTeX Warning: Command \CYRS invalid in math mode on input line 66.
 
 Missing character: There is no � in font cmr12!
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 79.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 81.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -912,57 +912,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 87.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 89.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 108.
 [2]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 140.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 170.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 170.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 170.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 170.
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 
 (/home/osabio/Документы/Конспект_алгебра_начала_�
 �еории_вероятностей_май2015/startteorver.aux
@@ -970,38 +944,35 @@ LaTeX Font Info:    Try loading font information for OT1+ftm on input line 20.
 (/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
 File: ot1ftm.fd 2014/01/03 Fontinst v1.933 font definitions for OT1/ftm.
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `startteorver.out' has not changed.
-(rerunfilecheck)             Checksum: 360445B222DB1A3D6EE25B588E774B13;876.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+(rerunfilecheck)             Checksum: 3977A13E397CA1FC6EF4B7410743EA27;666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 12023 strings out of 494507
- 165390 string characters out of 6173545
- 247938 words of memory out of 5000000
- 15015 multiletter control sequences out of 15000+600000
- 23901 words of font info for 55 fonts, out of 8000000 for 9000
+ 11997 strings out of 494507
+ 165161 string characters out of 6173545
+ 241938 words of memory out of 5000000
+ 15011 multiletter control sequences out of 15000+600000
+ 21009 words of font info for 51 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 29i,12n,43p,559b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,12n,43p,648b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.enc}</usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/scalable-c
-yrfonts-tex/ftmb6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-t
-ex/ftmr6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmri6
-w.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirc
-le1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lin
-e10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
-10.pfb>
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/scalable-cyrfonts-tex/ftmb6w.pfb></usr/share/texmf/fonts/type1/public/scala
+ble-cyrfonts-tex/ftmr6w.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfo
+nts-tex/ftmri6w.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+latxfont/lcircle1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/latxfont/line10.pfb>
 Output written on /home/osabio/Документы/Конспект_алгебр
 а_начала_теории_вероятностей_май2015/startteorver.p
-df (4 pages, 161098 bytes).
+df (2 pages, 128996 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
