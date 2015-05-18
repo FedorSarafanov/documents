@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+\usepackage{amssymb,amsmath}
+\usepackage[active]{srcltx} %SRC Specials for DVI Searching
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+%\geometry{a5paper}
+%\usepackage{cyrtimes}
+%\usepackage{mathtext,afterpage}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+% \usepackage[pdf]{pstricks}
+% \usepackage{auto-pst-pdf}
+% \usepackage{pdfsync}
+\pagestyle{empty} 
+
+\begin{document}
+
+\begin{equation}
+	y(x)=-\frac{3}{\sqrt{2x^2-x-1}}
+\end{equation}
+
+Возьмем производную сложной функции $y(x)$. Заметим, что $(\frac{1}{x})'=-\frac{1}{x^2}$
+, а $(\sqrt{x})'=\frac{1}{2\sqrt{x}}$. Тогда $(\frac{1}{\sqrt{x}})'=-\frac{1}{\sqrt{x}^2}\cdot\frac{1}{2\sqrt{x}}=\frac{-1}{2x\sqrt{x}}$, и 
+\begin{equation}
+	y(x)'=\frac{3}{2x\sqrt{x}}\cdot(2x^2-x-1)'=\frac{3}{2x\sqrt{x}}\cdot(4x-1)
+\end{equation}
+
+Тогда производная будет равна
+
+\begin{equation}
+	y(x)'=\frac{3(4x-1)}{2(2x^2-x-1)\sqrt{2x^2-x-1}}
+\end{equation}
+
+Для полученной производной нетрудно найти критические точки, где производная не существует: 
+
+	$$2x^2-x-1=0$$
+	$$x=-\frac{1}{2}, x=1$$
+
+В этих точках $2x^2-x-1=0$ и происходит деление на ноль, но и сама функция в этих точках не существует, поэтому рассматривать их не будем.
+
+Кроме того, производная равна нулю, когда числитель равен нулю, а знаменатель нет:
+
+	$$3(4x-1)=0$$
+	$$x=\frac{1}{4}$$
+
+Но в этой точке функция также не существует, т.к. $2x^2-x-1$ становится отрицательным, а в действительной области чисел корень из отрицательного числа извлечь нельзя.
+
+Таким образом, необходимо найти только значения на концах графика (точки $x=2, x=3$) $y(x)$.
+
+$$y(2)=\frac{-3}{\sqrt{5}}$$
+$$y(3)=\frac{-3}{\sqrt{14}}$$
+
+Выберем наибольшее и наименьшее значение. Наибольшее $y(3)=\frac{-3}{\sqrt{14}}$, наименьшее $y(3)=\frac{-3}{\sqrt{14}}$.
+
+\end{document}
