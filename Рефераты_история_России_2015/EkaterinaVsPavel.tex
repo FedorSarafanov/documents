@@ -1,0 +1,57 @@
+\documentclass[a4paper,14pt]{extreport}
+ 
+\usepackage{extsizes}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{cyrtimes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+\linespread{1.3} % полуторный интервал
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+\geometry{left=3cm,right=1cm,top=2cm,bottom=2cm,bindingoffset=0cm}
+\usepackage{titlesec}
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+\usepackage[unicode]{hyperref}
+
+
+\begin{document}
+
+\include{titlepage_EVsP}
+\addtocounter{page}{1}
+
+\tableofcontents
+%\large
+
+\chapter*{Введение}
+\addcontentsline{toc}{chapter}{Введение}
+
+\chapter*{Заключение}
+\addcontentsline{toc}{chapter}{Заключение}%\tabularnewline
+
+
+\addcontentsline{toc}{chapter}{Литература}
+\begin{thebibliography}{99}
+
+\bibitem{nodejs} Машков А.В. <<Основы лечебной физической культуры>>
+
+\bibitem{ajax} Васильев В.Е. <<Лечебная физическая культура>>
+
+\bibitem{igit} Аксельрод С.Л.  <<Спорт и здоровье>>
+
+\bibitem{iii} \href{http://www.gpsies.com/mapUser.do?username=osabio}{http://www.gpsies.com/mapUser.do?username=osabio}
+
+\end{thebibliography}
+\end{document}
