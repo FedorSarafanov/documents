@@ -182,8 +182,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /home/osabio/Документы/Рефераты_история_России_2015/EkaterinaVsPavel.aux
 INPUT /home/osabio/Документы/Рефераты_история_России_2015/titlepage_EVsP.aux
 INPUT /home/osabio/Документы/Рефераты_история_России_2015/titlepage_EVsP.aux
