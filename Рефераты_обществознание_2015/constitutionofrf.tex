@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{diss_4}
+ 
+% \usepackage{extsizes}
+% \usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+% \usepackage{cyrtimes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+\linespread{1.3} % полуторный интервал
+% \renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+% \geometry{left=3cm,right=1cm,top=2cm,bottom=2cm,bindingoffset=0cm}
+\usepackage{titlesec}
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+\usepackage[unicode]{hyperref}
+\usepackage{epigraph} %%% to make inspirational quotes.
+
+\begin{document}
+
+\include{titlepage_krf}
+\addtocounter{page}{1}
+
+\tableofcontents
+%\large
+
+\chapter*{Введение}
+\addcontentsline{toc}{chapter}{Введение}
+
+\chapter*{Заключение}
+\addcontentsline{toc}{chapter}{Заключение}%\tabularnewline
+
+
+\begin{thebibliography}{99}
+\addcontentsline{toc}{chapter}{Литература}
+
+\bibitem{nodejs}
+
+\bibitem{iii}
+
+\end{thebibliography}
+\end{document}
