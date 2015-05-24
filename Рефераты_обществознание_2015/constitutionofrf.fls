@@ -160,6 +160,8 @@ INPUT /home/osabio/.texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 OUTPUT /home/osabio/Документы/Рефераты_обществознание_2015/constitutionofrf.toc
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /home/osabio/Документы/Рефераты_обществознание_2015/constitutionofrf.aux
 INPUT /home/osabio/Документы/Рефераты_обществознание_2015/titlepage_krf.aux
 INPUT /home/osabio/Документы/Рефераты_обществознание_2015/titlepage_krf.aux

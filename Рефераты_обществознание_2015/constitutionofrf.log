@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  24 MAY 2015 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  24 MAY 2015 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,103 +584,100 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 78.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 78.
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 88.
 [9
 
 ]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 90.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 90.
+[10]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 91.
-[10
+(babel)             in language  on input line 101.
+[11
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 95.
-[11]
+(babel)             in language  on input line 104.
+[12]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 99.
-[12
-
-]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 100.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 100.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 112.
 [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 
 (/home/osabio/Документы/Рефераты_обществознание_
 2015/constitutionofrf.aux
 (/home/osabio/Документы/Рефераты_обществознание_
 2015/titlepage_krf.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `constitutionofrf.out' has not changed.
-(rerunfilecheck)             Checksum: CED1C63ED5DB5B2CA9944F70437B9879;1480.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+(rerunfilecheck)             Checksum: D2DD37168F01572B843812EAC3C29E4B;1356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 13017 strings out of 494507
- 176938 string characters out of 6173545
- 253947 words of memory out of 5000000
- 16076 multiletter control sequences out of 15000+600000
+ 13259 strings out of 494507
+ 179674 string characters out of 6173545
+ 252947 words of memory out of 5000000
+ 16316 multiletter control sequences out of 15000+600000
  8914 words of font info for 22 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 29i,5n,26p,3546b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,26p,3546b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/osabio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/os
 abio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/osabio/.texmf-
 var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/osabio/.texmf-var/fonts/pk
 /ljfour/lh/lh-t2a/larm1440.600pk> </home/osabio/.texmf-var/fonts/pk/ljfour/lh/l
 h-t2a/larm1200.600pk>
 Output written on /home/osabio/Документы/Рефераты_общест
-вознание_2015/constitutionofrf.pdf (13 pages, 77946 bytes).
+вознание_2015/constitutionofrf.pdf (13 pages, 76753 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
