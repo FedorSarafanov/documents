@@ -1,0 +1,212 @@
+\documentclass[a4paper,12pt]{article}
+ 
+\usepackage{extsizes}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{cyrtimes}
+\usepackage{misccorr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+\linespread{1.3} % полуторный интервал
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+\geometry{left=3cm,right=2cm,top=3cm,bottom=3cm,bindingoffset=0cm}
+\usepackage{titlesec}
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+\usepackage[unicode]{hyperref}
+\usepackage{fancyhdr} %загрузим пакет
+\pagestyle{fancy} %применим колонтитул
+\fancyhead{} %очистим хидер на всякий случай
+\fancyhead[LE,RO]{Сарафанов Ф.Г.} %номер страницы слева сверху на четных и справа на нечетных
+\fancyhead[CO, CE]{Конспект по алгебре \today}
+\fancyhead[LO,RE]{Элементарный теорвер} 
+\fancyfoot{} %футер будет пустой
+\fancyfoot[CO,CE]{\thepage}
+\renewcommand{\labelenumii}{\theenumii)}
+
+% \newcounter{define_count}\setcounter{define_count}{0}
+% \newenvironment{define}[1][Определение]{%
+%  \refstepcounter{define_count}%
+%  \label{def:\arabic{define_count}}%
+%  \textbf{#1 \arabic{define_count}.\\}%
+%  }
+%  {}
+
+\usepackage{amsthm}
+\newtheorem{define}{Определение}
+
+\begin{document}
+
+\section{Определение классической вероятности}
+
+\begin{define}
+Случайное событие - это событие, которое может произойти некого опыта, а может и не наступить.
+\end{define}
+
+\begin{define}
+События, которые нельзя разбить на более простые, именуют \textbf{элементарными}.
+\end{define}
+
+\begin{define}
+Элементарные события, при которых наступает событие $A$, называют \textbf{благоприятствующими} событию $A$.
+\end{define}
+
+\begin{define}[Формула классической вероятности]
+Вероятностью $P$ события $A$ --- $P(A)$ называют отношение $m$ благоприятствующих исходов этого события к числу $n$  равновозможных исходов.
+$$P(A)=\frac{m}{n}$$
+\end{define}
+
+\begin{tabular}{p{0.2\linewidth}|p{0.6\linewidth}}
+{%
+\textbf{Дано:}
+
+} & {%
+\textbf{Решение:}
+
+}
+\end{tabular}
+
+\subsection{Задача}
+На клавиатуре телефона 10 цифр ${0..9}$. Какова вероятность того, что случайно набранная цифра будет четной? А будет меньше 4? Или будет четной и больше 3?
+\begin{center}
+Решение
+\end{center}
+\begin{itemize}
+	\item $m={0; 2; 4; 6; 8} \longrightarrow m=5, n={0..9} \longrightarrow n=10$. $P(A)=\frac{m}{n}=\frac{5}{10}=0.5$
+	\item $m={0; 1; 2; 3} \longrightarrow m=4, n={0..9} \longrightarrow n=10$. $P(A)=\frac{m}{n}=\frac{4}{10}=0.4$
+	\item $m={4; 6; 8} \longrightarrow m=3, n={0..9} \longrightarrow n=10$. $P(A)=\frac{m}{n}=\frac{3}{10}=0.3$
+\end{itemize}
+
+\subsection{Задача}
+Василий выбирает случайное трехзначное число. Найдите вероятность того, что число делится на 51.
+\begin{center}
+Решение
+\end{center}
+$$999=100(n-1)*1$$
+$$999-100+1=n$$
+$$n=900$$
+
+$$969=102+(m-1)*51$$
+$$m=18$$
+
+$$P(A)=\frac{m}{n}=\frac{18}{900}=0.02$$
+
+\section*{Геометрическая вероятность}
+Вероятность $P$ события $A$ --- $P(A)$ есть отношение меры $A$: длины, площади, объема к мере $Y$ -- пространства элементарных событий.
+
+\subsection{Задача}
+В круг радиуса $R$ случайным образом бросают точку. Найдите вероятность того, что это точка окажется внутри вписанного:
+\begin{enumerate}
+	\item правильного треугольника
+	\item квадрата
+	\item правильного шестиугольника
+\end{enumerate}
+\begin{center}
+Решение
+\end{center}
+
+
+
+\begin{enumerate}
+	\item { Пусть $a$-сторона правильного треугольника, $h$ --- его высота, а $B$ - вершина треугольника, противолежащая высоте. Тогда
+		\begin{align*}
+			n=S_{\text{окр}}=\pi{}R^2\\
+			S_{\text{пр.}\vartriangle}&=\frac{1}{2}ah\\
+			h=\sqrt{a^2-(\frac{1}{2}a^2)}&=\frac{a\sqrt{3}}{2}\\
+			S_{\text{пр.}\vartriangle}=\frac{1}{2}a\frac{a\sqrt{3}}{2}&=\frac{a^2\sqrt{3}}{4}\\
+			BO&=R\\
+			BO&=\frac{2}{3}h\\
+			BO=\frac{2}{3}*\frac{a\sqrt{3}}{2}&=\frac{a\sqrt{3}}{3}\\
+			a=\frac{3R}{\sqrt{3}}&=R\sqrt{3}\\
+			S_{\vartriangle}=\frac{(3\sqrt{3})^2\sqrt{3}}{4}&=\frac{3\sqrt{3}R^2}{4}\\
+			P(A)=\frac{3\sqrt{3}R^2}{4\pi{}R^2}=\frac{3\sqrt{3}}{4\pi}&=0.41
+		\end{align*}
+	}
+	\item { Пусть $a$-сторона квадрата, $h$ --- его высота. Тогда
+		\begin{align*}
+			n&=S_{\text{окр}}=\pi{}R^2\\
+			m&=a^2\\
+			R&=\frac{a\sqrt{2}}{2}\\
+			a&=R\sqrt{2}\\
+			S_\square&=a^2=(R\sqrt{2})^2=2R^2\\
+			P(A)&=\frac{m}{n}=\frac{2R^2}{\pi{}R^2}\approx\frac{2}{3}=0.04
+		\end{align*}
+	}	
+	\item { Пусть $a$-сторона правильного шестиугольника. Тогда
+		\begin{align*}			
+			n&=S_{\text{окр}}=\pi{}R^2\\
+			R&=a\\
+			m&=S_{\text{шестиугольника}}=\frac{3R^2\sqrt{3}}{2}\\
+			P(A)&=\frac{m}{n}=\frac{3R^2\sqrt{3}}{2\pi{}R^2}=\frac{3\sqrt{3}}{2\pi}\approx0.63
+		\end{align*}
+	}		
+\end{enumerate}
+
+\subsection{Задача}
+Случайным образом выбирается одно из решений неравенства $x^2\leq9$, найдите вероятность того, что оно является решением неравенства:
+
+\begin{enumerate}
+	\item $x^2\leq10$
+	\item $2x-3\leq17$
+	\item $x^2\geq10$
+	\item $x^3+2x\geq0$
+\end{enumerate}
+
+\begin{center}
+Решение
+\end{center}
+
+\begin{enumerate}
+	\item { 
+		\begin{align*}
+			x^2&\leq10\\
+			x&\in[-3;3]\\
+			x^2&\leq9\\
+			x&\in[-\sqrt{10};\sqrt{10}]\longrightarrow\\
+			\longrightarrow& P(A)=1
+		\end{align*}
+	}
+	\item { 
+		\begin{align*}
+			2x-3&\leq17\\
+			x&\leq10\\
+			x&\in[-3;3]\longrightarrow\\
+			\longrightarrow& P(A)=1
+		\end{align*}
+	}	
+	\item { 
+		\begin{align*}			
+			x^2&\geq10\\
+			x&\geq\sqrt{10}\\
+			x&\leq-\sqrt{10}\\
+			x&\in[-3;3]\longrightarrow\\
+			\longrightarrow& P(A)=0
+		\end{align*}
+	}	
+	\item { 
+		\begin{align*}			
+			x^3+2x&\geq0\\
+			x&\geq0\\
+			x&\in[-3;3]\longrightarrow\\			
+			\longrightarrow& P(A)=\frac{[0; 3]}{[-3; 3]}=\frac{3}{6}=0.5
+		\end{align*}
+	}			
+\end{enumerate}
+
+
+
+
+
+\end{document}
