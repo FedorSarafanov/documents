@@ -1,13 +1,132 @@
-html{
-	padding: 0;
-	margin: 0;
-	background: #ddd;
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-body{
-	width: 960px;
-	background: #fcfcfc;
-	min-height: 98vh;
-	margin: 0 auto;
-	padding: 1vh;
+body
+{
+    position: relative;
+
+    background-image: url('http://u.jimdo.com/www400/o/sfa5538e3ab7e5620/img/ia27830e1885b8f0f/1395244437/orig/image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.layer
+{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('http://a2.jimstatic.com/s/img/cc/ownbgrpattern/bright-pattern-10.gif');
+    background-attachment: fixed;
+}
+
+.cont
+{
+    z-index: 100;
+
+    width: 850px;
+    min-height: 100vh;
+    margin-top: 5px;
+    padding: 2px;
+    display: block;
+    float: left;    
+    background: #fff;
+    margin-left: ~"calc((100% - 850px) / 2)"
+}
+
+.gutter{
+	display: block;
+	float: left;
+	background: #333;
+	margin: 0;
+	padding: 14px;
+}
+
+.gutterli{
+		float: left;
+		display: block;
+		padding-top: -2px;
+
+		a{
+			font-family: Arial;
+			display: block;
+			float: left;
+			
+			margin-left: 0px;
+			margin-right: 16px;
+			margin-bottom: 0;
+			margin-top: 6px;
+			font-size: 13px;
+			text-decoration: none;
+			color: #ccc;
+			&:visited{
+				color: #ccc;
+			}
+		}
+}
+
+#emotion-header-img{
+ // border-bottom: 4px solid black;
+}
+
+.active{position: relative;}
+.active:before{
+	content: '';
+	position: absolute;
+	left: -14px;
+	top: 26px;
+	width: 75px;
+	height: 4px;
+	background: #fff;
+	// border-bottom: 4px solid white;
+}
+.gradient{
+display: block;	
+width: 849px;
+.center{
+	width: 450px;
+	float: left;
+	border-left: 1px solid #ddd;	
+	border-right: 1px solid #ddd;
+	padding: 1em;
+}
+.left, .right{
+	width: 145px;
+	float: left;
+	padding: 1em;
+	
+}
+
+float: left;
+background: transparent url("http://u.jimdo.com/www400/o/layout/ld3c6fa63d824dfd3/img/gradient.png") repeat-x scroll 0px 0px;
+padding: 15px 0px;
+border-bottom: 4px solid #FFF;
+}
+
+h1 {
+    font: bold 16px/140% Arial,Helvetica,sans-serif;
+    color: #333;
+}
+
+body, p, table, td {
+    font: 13px/150% Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+div.hr {
+    border-bottom: 1px solid #CCC;
+    border-color: #CCC;
+    height: 1px;
 }
