@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  9 SEP 2015 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  9 SEP 2015 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/osabio/Документы/Номер_6.0281_ЕС/60281.tex
-(/home/osabio/Документы/Номер_6.0281_ЕС/60281.tex
+**/home/osabio/Документы/НомерП15Б/П15Б.tex
+(/home/osabio/Документы/НомерП15Б/П15Б.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 9 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -571,12 +571,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
-) (/home/osabio/Документы/Номер_6.0281_ЕС/60281.aux
+) (/home/osabio/Документы/НомерП15Б/П15Б.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `60281.aux'.
+\openout1 = `П15Б.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -685,28 +685,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/osabio/Докуме
-нты/Номер_6.0281_ЕС/60281.aux) ) 
+нты/НомерП15Б/П15Б.aux) ) 
 Here is how much of TeX's memory you used:
  4170 strings out of 494507
- 52594 string characters out of 6173545
- 122032 words of memory out of 5000000
+ 52550 string characters out of 6173545
+ 120035 words of memory out of 5000000
  7326 multiletter control sequences out of 15000+600000
  6136 words of font info for 23 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 37i,4n,26p,368b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/osabio/.texmf-var/fonts/pk/lj
-four/lh/lh-t2a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on /home/osabio/Документы/Номер_6.0281_ЕС/60281.
-pdf (1 page, 70043 bytes).
+ 37i,13n,26p,325b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/osabio/.texmf-var/fonts/pk/ljfour/
+lh/lh-t2a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on /home/osabio/Документы/НомерП15Б/П15Б.pdf (
+1 page, 51224 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

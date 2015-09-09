@@ -1,0 +1,10 @@
+* Z:\home\osabio\Документы\Радио_555,4013_таймер\Draft1.asc
+V2 N001 0 9
+C1 N001 0 220µ V=16 Irms=460m Rser=0.16 Lser=0 mfg="Nichicon" pn="UPL1C221MPH" type="Al electrolytic"
+XU1 0 N002 N003 N001 N001 N002 NC_01 NC_02 NE555
+R1 N002 N003 4.7
+Z1 NC_03 N003 NC_04 NMF
+.tran 10
+.lib NE555.sub
+.backanno
+.end
