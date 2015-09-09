@@ -1,0 +1,52 @@
+\documentclass[a4paper]{article}
+\usepackage{amssymb,amsmath}
+\usepackage[active]{srcltx} %SRC Specials for DVI Searching
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+%\geometry{a5paper}
+%\usepackage{cyrtimes}
+%\usepackage{mathtext,afterpage}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+% \usepackage[pdf]{pstricks}
+% \usepackage{auto-pst-pdf}
+% \usepackage{pdfsync}
+\pagestyle{empty} 
+
+\begin{document}
+
+$${(sin\ x-cos\ x)}^2=1$$
+$$sin\ x-cos\ x=1$$
+Явно, что это возможно только при $sin\ x=0, cos\ x=-1$
+$$sin\ x-cos\ x=-1$$
+Явно, что это возможно только при $sin\ x=0, cos\ x=1$.
+
+Отсюда
+\begin{equation}
+\begin{cases}
+	\begin{cases}
+		sin\ x=0\\
+		cos\ x=-1
+	\end{cases}\\
+	\begin{cases}
+		sin\ x=0\\
+		cos\ x=1
+	\end{cases}	
+\end{cases}	
+\end{equation}
+или перепишем в виде, учитывая что $cos\ x$ изначально предпологался положительным (иначе начальное уравнение не имеет смысла, сводясь к $sin\ 2x=2$)
+\begin{equation}
+\begin{cases}
+		sin\ x=0\\
+		cos\ x=1
+\end{cases}	
+\end{equation}
+Отсюда
+\begin{equation}
+\begin{cases}
+		x=\pi{k}, k\in{Z}\\
+		x=2\pi{k}, k\in{Z}
+\end{cases}	
+\end{equation}
+Отсюда и ответ: $x=2\pi{k}, k\in{Z}$.
+\end{document}
