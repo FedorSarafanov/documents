@@ -1,10 +1,10 @@
-PWD /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 
+PWD /home/osabio/documents/Задачи_С1_2_октябрь2015
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.tex
-OUTPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.log
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.tex
+OUTPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -25,7 +25,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 INPUT /home/osabio/.texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t2a.cmap
-OUTPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.pdf
+OUTPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/t2a.cmap
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -134,9 +134,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.aux
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.aux
-OUTPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.aux
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.aux
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.aux
+OUTPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.aux
 INPUT /usr/share/texmf/tex/latex/scalable-cyrfonts-tex/t2aftm.fd
 INPUT /usr/share/texmf/tex/latex/scalable-cyrfonts-tex/t2aftm.fd
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
@@ -152,18 +152,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-OUTPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmb6a.tfm
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+OUTPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmri6a.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmb6a.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmbi6a.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/ot1.cmap
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmap/ot1.cmap
@@ -193,53 +190,30 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
 INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmr6a.vf
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmb6a.vf
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmb6r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmb6a.vf
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmb6r.tfm
 INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmri6a.vf
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmri6r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmbi6a.vf
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmbi6r.tfm
-INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmr6a.vf
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmr6a.vf
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/share/texmf/fonts/vf/public/scalable-cyrfonts-tex/ftmr6a.vf
-INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.aux
+INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr6a.tfm
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.aux
 INPUT /usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
 INPUT /usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
 INPUT /usr/share/texmf/fonts/tfm/public/scalable-cyrfonts-tex/ftmr7t.tfm
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
-INPUT /home/osabio/documents/Конспект_алгебра_начала_теории_вероятностей_2_май2015 /startteorver2.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
+INPUT /home/osabio/documents/Задачи_С1_2_октябрь2015/problems.out
 INPUT /usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmb6w.pfb
-INPUT /usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmbi6w.pfb
 INPUT /usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb
 INPUT /usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmri6w.pfb
