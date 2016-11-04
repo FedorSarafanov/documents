@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+ 
+\usepackage{extsizes}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{cyrtimes}
+\usepackage{misccorr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+\linespread{1.3} % полуторный интервал
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+\geometry{left=3cm,right=2cm,top=3cm,bottom=3cm,bindingoffset=0cm}
+\usepackage{titlesec}
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+\usepackage[unicode]{hyperref}
+\usepackage{fancyhdr} %загрузим пакет
+\pagestyle{fancy} %применим колонтитул
+\fancyhead{} %очистим хидер на всякий случай
+\fancyhead[LE,RO]{Сарафанов Ф.Г.} %номер страницы слева сверху на четных и справа на нечетных
+\fancyhead[CO, CE]{Конспект по алгебре \today}
+\fancyhead[LO,RE]{Начала теорвера} 
+\fancyfoot{} %футер будет пустой
+\fancyfoot[CO,CE]{\thepage}
+\renewcommand{\labelenumii}{\theenumii)}
+
+% \newcounter{define_count}\setcounter{define_count}{0}
+% \newenvironment{define}[1][Определение]{%
+%  \refstepcounter{define_count}%
+%  \label{def:\arabic{define_count}}%
+%  \textbf{#1 \arabic{define_count}.\\}%
+%  }
+%  {}
+
+\usepackage{amsthm}
+\newtheorem{define}{Определение}
+\newtheorem{theorem}{Теорема}
+\newtheorem{problem}{Задача}
+
+\begin{document}
+
+\section{Независимые события}
+
+\begin{define}
+Два случайных события называют \textbf{независимыми}, если наступление одного из них не изменит вероятности наступления другого. В противном случае события называют \textbf{зависимыми}.
+\end{define}
+
+\begin{theorem}
+Вероятность совместного появления двух независимых событий (вероятность произведения) равна произведению вероятностей\footnote{Теорема обобщается на любое число попарно независимых событий}.
+\end{theorem}
+\begin{proof}[Следствие]
+Если $A_1, A_2, A_3, \cdots, A_n$ --- попарно независимые события, то вероятность появления хотя бы одного события равна $P(A)=1-P(\overline{A_1})\cdot{}P(\overline{A_2})\cdot{}P(\overline{A_3})\cdot\ \ \cdots\ \ \cdot{}P(\overline{A_n})$
+\end{proof}
+
+\begin{problem}
+	Если гросс­мей­стер А. иг­ра­ет бе­лы­ми, то он вы­иг­ры­ва­ет у гросс­мей­сте­ра Б. с ве­ро­ят­но­стью 0,52. Если А. иг­ра­ет чер­ны­ми, то А. вы­иг­ры­ва­ет у Б. с ве­ро­ят­но­стью 0,3. Гросс­мей­сте­ры А. и Б. иг­ра­ют две пар­тии, при­чем во вто­рой пар­тии ме­ня­ют цвет фигур. Най­ди­те ве­ро­ят­ность того, что А. вы­иг­ра­ет оба раза.
+\end{problem}
+\begin{proof}[\href{http://math.reshuege.ru/test?pid=319555}{Решение}]
+	$$P(A\cdot{}B)=P(A)\cdot{}P(B)=0,52\cdot{}0,3=0,156$$
+\end{proof}
+
+\begin{problem}
+Би­ат­ло­нист пять раз стре­ля­ет по ми­ше­ням. Ве­ро­ят­ность по­па­да­ния в ми­шень при одном вы­стре­ле равна 0,8. Най­ди­те ве­ро­ят­ность того, что би­ат­ло­нист пер­вые три раза попал в ми­ше­ни, а по­след­ние два про­мах­нул­ся. Ре­зуль­тат округ­ли­те до сотых.
+\end{problem}
+\begin{proof}[{Решение}]
+	$$P(A)={0,8}^3\cdot{(1-0,8)}^2\approx0,02$$
+\end{proof}
+
+\section{Независимые события}
+
+\begin{define}
+Условной вероятностью $P_A(B)$ называют вероятность события $B$, вычисленную в предположении, что событие $A$ уже произошло.
+\end{define}
+
+\begin{theorem}
+Вероятность совместного появления двух \textbf{зависимых} событий (вероятность произведения) равна произведению вероятности одного из них на условную вероятность второго, вычисленную в предположении, что первое событие уже произошло.
+$$P(A\cdot{}B)=P(A)\cdot{}P_A(B)=P(B)\cdot{}P_B(A)$$
+\end{theorem}
+
+\begin{problem}
+В урне 6 шаров: 2 белых и 4 черных. Без возвращения на удачу выбирают два шара. Найдите вероятность того, что они оба белые.
+\end{problem}
+\begin{proof}[Решение]
+	$$\frac{2}{6}\cdot{}\frac{1}{5}=\frac{1}{15}\approx0,07$$
+\end{proof}
+
+
+
+
+\end{document}

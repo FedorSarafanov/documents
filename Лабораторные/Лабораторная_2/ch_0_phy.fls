@@ -1,0 +1,9 @@
+PWD /home/osabio/Рабочий стол/Лабораторная_2
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT ch_0_phy.tex
+OUTPUT ch_0_phy.log
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT ch_0_phy.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

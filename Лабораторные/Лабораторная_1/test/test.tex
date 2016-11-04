@@ -1,0 +1,57 @@
+\documentclass[a4paper,12pt]{article}
+ 
+\usepackage{extsizes}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+% \usepackage[russian]{babel}
+\usepackage[english, russian]{babel}
+% \usepackage{newtx}
+% \usepackage{cyrtimes}
+\usepackage{misccorr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+
+% \usepackage{fontspec}
+% \usepackage{unicode-math}
+
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+
+\linespread{1.3} % полуторный интервал
+% \renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+\geometry{left=3cm,right=2cm,top=3cm,bottom=3cm,bindingoffset=0cm}
+\usepackage{titlesec}
+
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+% \usepackage[unicode]{hyperref} %ссылки
+\usepackage{fancyhdr} %загрузим пакет
+\pagestyle{fancy} %применим колонтитул
+\fancyhead{} %очистим хидер на всякий случай
+\fancyhead[LE,RO]{Сарафанов Ф.Г.} %номер страницы слева сверху на четных и справа на нечетных
+\fancyhead[CO, CE]{Отчёт по лабораторной работе №16}
+\fancyhead[LO,RE]{Определение $\vec{g}$} 
+\fancyfoot{} %футер будет пустой
+\fancyfoot[CO,CE]{\thepage}
+\renewcommand{\labelenumii}{\theenumii)}
+\newcommand{\ddt}{$\ \pm\ 0.2\ \text{с}$}
+\newcommand{\ddtv}{$\ \pm\ 0.8\ \text{с}$}
+\newcommand{\ddh}{$\ \pm\ 0.1\ \text{см}$}
+
+
+
+\begin{document}
+
+\textbf{textr}
+
+\textit{textr}
+\end{document}

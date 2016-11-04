@@ -1,0 +1,59 @@
+\documentclass[a4paper,12pt]{article}
+ 
+\usepackage{extsizes}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+% \usepackage{cyrtimes}
+\usepackage{misccorr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\usepackage{graphicx} % для вставки картинок
+\graphicspath{{img/}}
+\usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
+\usepackage[usenames,dvipsnames]{color} % названия цветов
+\usepackage{makecell}
+\usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{ulem} % подчеркивания
+\linespread{1.3} % полуторный интервал
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\frenchspacing
+\usepackage{geometry}
+\geometry{left=3cm,right=2cm,top=3cm,bottom=3cm,bindingoffset=0cm}
+\usepackage{titlesec}
+
+% \definecolor{black}{rgb}{0,0,0}
+% \usepackage[colorlinks, unicode, pagecolor=black]{hyperref}
+\usepackage[unicode]{hyperref}
+\usepackage{fancyhdr} %загрузим пакет
+\pagestyle{fancy} %применим колонтитул
+\fancyhead{} %очистим хидер на всякий случай
+\fancyhead[LE,RO]{Сарафанов Ф.Г.} %номер страницы слева сверху на четных и справа на нечетных
+\fancyhead[CO, CE]{Отчёт по лабораторной работе №16}
+\fancyhead[LO,RE]{Определение $\vec{g}$} 
+\fancyfoot{} %футер будет пустой
+\fancyfoot[CO,CE]{\thepage}
+\renewcommand{\labelenumii}{\theenumii)}
+
+
+\usepackage{amsthm}
+\newtheorem{define}{Определение}
+\newtheorem{theorem}{Теорема}
+\newtheorem{problem}{Задача}
+
+\begin{document}
+
+\section{}
+
+\begin{eqnarray*}
+	\delta{g_c}=\frac{\Delta{g_1}+\Delta{g_2}+\Delta{g_3}}{g_1+g_2+g_3}=
+\frac{\varepsilon{g_1}\cdot{g_1}+\varepsilon{g_2}\cdot{g_2}+\varepsilon{g_3}\cdot{g_3}}{g_1+g_2+g_3}=\\
+\\
+=\frac{0.014\cdot987.74+0.012\cdot977.66+0.01\cdot986.41}{987.74+977.66+986.41}=0.012000=1.2\%	
+\end{eqnarray*}
+
+
+
+\end{document}

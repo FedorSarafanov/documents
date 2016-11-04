@@ -1,0 +1,22 @@
+import sympy
+import sympytex
+sympytex.openout('index')
+sympytex.blockbegin()
+try:
+ x=Symbol('x')
+ y=Symbol('y')
+ eq1=Eq(x**2+y**2,0)
+ xx=solve(eq1,x)
+ yy=solve(eq1,y)
+except:
+ sympytex.goboom(69)
+sympytex.blockend()
+try:
+ sympytex.inline(0, latex(xx))
+except:
+ sympytex.goboom(72)
+try:
+ sympytex.inline(1, latex(yy))
+except:
+ sympytex.goboom(73)
+sympytex.endofdoc()

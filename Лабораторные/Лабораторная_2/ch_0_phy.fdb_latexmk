@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1475609999 "ch_0_phy.tex" "ch_0_phy.pdf" "ch_0_phy" 1475610000
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1471317721 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1471317719 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1471317729 31669 df537245012f3e5f05bdc55644b7a3df ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1474371504 336929 807850bff1e8f3029a46be67b612f2bc ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1474371341 7252863 aa81d4679b1275fc89f581272213e0b8 ""
+  "ch_0_phy.aux" 1475609385 8 a94a2480d3289e625eea47cd1b285758 ""
+  "ch_0_phy.tex" 1475609998 10118 029995c865c94a10e723262b262fbbe3 ""
+  (generated)
+  "ch_0_phy.pdf"
+  "ch_0_phy.log"
