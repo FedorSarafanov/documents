@@ -1,5 +1,5 @@
 %%
-%% This is file `report.cls',
+%% This is file `diss_4.cls',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -88,7 +88,7 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{report}
+\ProvidesClass{diss_4}
               [1995/12/20 v1.3q
  Standard LaTeX document class]
 

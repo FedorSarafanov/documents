@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.10)  23 MAY 2015 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.3)  4 JUL 2016 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/phy
-.tex
-
-(/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/phy.
-tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 9 languages loaded.
-
-(/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/diss
-_4.cls
-
-LaTeX Warning: You have requested document class `diss_4',
-               but the document class provides `report'.
-
-Document Class: report 1995/12/20 v1.3q Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+**phy.tex
+(./phy.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(./diss_4.cls
+Document Class: diss_4 1995/12/20 v1.3q Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,32 +25,40 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
+)
+(/usr/share/texmf-dist/tex/latex/t2/mathtext.sty
 Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
 LaTeX Info: Redefining \halign on input line 111.
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
+
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen103
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -101,32 +100,37 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) (/usr/share/texlive/texmf-dist/tex/latex/srcltx/srcltx.sty
+)
+(/usr/share/texmf-dist/tex/latex/srcltx/srcltx.sty
 Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \src@lastline=\count102
 \src@new@everypar=\toks20
 \src@new@output=\toks21
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 Package srcltx Info: Expanded filename `utf8x.def' to `utf8x.def.tex' on input 
-line 165.
+line 173.
+
 :<+ utf8x.def.tex
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+(/usr/share/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
 :<-
-) (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+) (/usr/share/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 Package srcltx Info: Expanded filename `uni-global.def' to `uni-global.def.tex'
  on input line 128.
+
 :<+ uni-global.def.tex
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 :<-
@@ -134,41 +138,45 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoks=\toks24
 \uc@combtoksb=\toks25
 \uc@temptokena=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count104
 \U@D=\dimen112
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russianb 2014/10/21 1.3f Russian support for the Babel system
+)
+(/usr/share/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russianb 2015/05/01 1.3g Russian support for the Babel system
+
 
 Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                A font encoding should be declared before babel.
 (babel)                Default `T2A' encoding will be loaded  on input line 69.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+(/usr/share/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 \symT2Aletters=\mathgroup8
 )
 Package babel Info: Making " an active character on input line 111.
-)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+))
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen113
 \extrarowheight=\dimen114
 \NC@list=\toks27
 \extratabsurround=\skip46
 \backup@length=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen115
 \lightrulewidth=\dimen116
@@ -187,34 +195,43 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count107
 \@lastruleclass=\count108
 \@thisrulewidth=\dimen127
-) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen128
 \WF@size=\dimen129
 \c@WF@wrappedlines=\count109
 \WF@box=\box28
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 Package srcltx Info: Expanded filename `pdftex.def' to `pdftex.def.tex' on inpu
-t line 92.
+t line 95.
+
 :<+ pdftex.def.tex
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count110
@@ -228,11 +245,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 LaTeX Warning: Unused global option(s):
     [a6paper].
 
-
-(/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/phy.
-aux
+(./phy.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+ (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
@@ -247,28 +262,29 @@ LaTeX Warning: Label `r63' multiply defined.
 )
 \openout1 = `phy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 Package srcltx Info: Expanded filename `ucsencs.def' to `ucsencs.def.tex' on in
-put line 52.
+put line 53.
+
 :<+ ucsencs.def.tex
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 :<-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
 \scratchdimen=\dimen132
@@ -281,13 +297,15 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \MPnumerator=\count115
 \makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks31
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -295,17 +313,23 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -316,26 +340,29 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
+))
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/phy.
-toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./phy.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
@@ -345,7 +372,8 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -354,328 +382,326 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-[2
+ [2
 
 ] [3])
 \tf@toc=\write3
 \openout3 = `phy.toc'.
 
-[4]
+ [4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) [5
 
 ]
-Package epstopdf Info: Source file: <img/img01.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
-(epstopdf)                    size: 730440 bytes
-(epstopdf)             Output file: <img/img01-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:33
-(epstopdf)                    size: 251702 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/img01-eps-converted-to
-.pdf img/img01.eps>
-(epstopdf)             \includegraphics on input line 117.
-Package epstopdf Info: Output file is already uptodate.
-<img/img01-eps-converted-to.pdf, id=23, 1044.90375pt x 784.9325pt>
-File: img/img01-eps-converted-to.pdf Graphic file (type pdf)
-<use img/img01-eps-converted-to.pdf>
-Package pdftex.def Info: img/img01-eps-converted-to.pdf used on input line 117.
-
-(pdftex.def)             Requested size: 251.9989pt x 189.2979pt.
-[6 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/i
-mg/img01-eps-converted-to.pdf>] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+<img/img01.png, id=23, 1043.9pt x 783.92876pt>
+File: img/img01.png Graphic file (type png)
+ <use img/img01.png>
+Package pdftex.def Info: img/img01.png used on input line 118.
+(pdftex.def)             Requested size: 251.9989pt x 189.23526pt.
+ [6 <./img/img01.png>] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 [9] [10] [11]
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 345.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 346.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 345.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 346.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 345.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 346.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 345.
-[12]
-Overfull \hbox (54.23227pt too wide) in paragraph at lines 362--372
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 346.
+ [12]
+Overfull \hbox (54.23227pt too wide) in paragraph at lines 363--373
  [][] 
  []
 
 [13] [14]
-Overfull \hbox (50.84073pt too wide) detected at line 457
+Overfull \hbox (50.84073pt too wide) detected at line 458
 \OML/cmm/m/it/10.95 " \OT1/cmr/m/n/10.95 = [] + [] + [] + [] + [] + [] = [] + [
 ] + [] + [] + [] + [] = 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
 [15] [16]
 Package epstopdf Info: Source file: <img/img04.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 27678 bytes
 (epstopdf)             Output file: <img/img04-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:44
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 12861 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img04-eps-converted-to
 .pdf img/img04.eps>
-(epstopdf)             \includegraphics on input line 576.
+(epstopdf)             \includegraphics on input line 577.
 Package epstopdf Info: Output file is already uptodate.
-<img/img04-eps-converted-to.pdf, id=75, 288.07625pt x 190.7125pt>
+ <img/img04-eps-converted-to.pdf, id=74, 288.07625pt x 190.7125pt>
 File: img/img04-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img04-eps-converted-to.pdf>
-Package pdftex.def Info: img/img04-eps-converted-to.pdf used on input line 576.
+Package pdftex.def Info: img/img04-eps-converted-to.pdf used on input line 577.
 
 (pdftex.def)             Requested size: 71.9989pt x 47.66345pt.
-[17 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img04-eps-converted-to.pdf>]
+ [17 <./img/img04-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img02.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 274359 bytes
 (epstopdf)             Output file: <img/img02-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:46
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 83705 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img02-eps-converted-to
 .pdf img/img02.eps>
-(epstopdf)             \includegraphics on input line 590.
+(epstopdf)             \includegraphics on input line 591.
 Package epstopdf Info: Output file is already uptodate.
-<img/img02-eps-converted-to.pdf, id=84, 582.175pt x 442.65375pt>
+
+<img/img02-eps-converted-to.pdf, id=83, 582.175pt x 442.65375pt>
 File: img/img02-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img02-eps-converted-to.pdf>
-Package pdftex.def Info: img/img02-eps-converted-to.pdf used on input line 590.
+Package pdftex.def Info: img/img02-eps-converted-to.pdf used on input line 591.
 
 (pdftex.def)             Requested size: 251.9989pt x 191.60045pt.
 Package epstopdf Info: Source file: <img/img05.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 33276 bytes
 (epstopdf)             Output file: <img/img05-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:47
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 16508 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img05-eps-converted-to
 .pdf img/img05.eps>
-(epstopdf)             \includegraphics on input line 605.
+(epstopdf)             \includegraphics on input line 606.
 Package epstopdf Info: Output file is already uptodate.
-<img/img05-eps-converted-to.pdf, id=86, 290.08376pt x 276.03125pt>
+
+<img/img05-eps-converted-to.pdf, id=85, 290.08376pt x 276.03125pt>
 File: img/img05-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img05-eps-converted-to.pdf>
-Package pdftex.def Info: img/img05-eps-converted-to.pdf used on input line 605.
+Package pdftex.def Info: img/img05-eps-converted-to.pdf used on input line 606.
 
 (pdftex.def)             Requested size: 108.0011pt x 102.77016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--608
+Underfull \hbox (badness 10000) in paragraph at lines 602--609
 \T2A/cmr/m/n/10.95 точ-ки в про-стран-стве (де-кар-то-ва си-сте-ма ко-ор-ди-нат
 ).
  []
 
-[18 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img02-eps-converted-to.pdf> </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„Р
-ёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/img/img05-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 614--618
+[18 <./img/img02-eps-converted-to.pdf> <./img/img05-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--618
+Underfull \hbox (badness 10000) in paragraph at lines 615--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--618
+Underfull \hbox (badness 10000) in paragraph at lines 615--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--622
+Underfull \hbox (badness 10000) in paragraph at lines 620--623
 
  []
 
 Package epstopdf Info: Source file: <img/img06.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 30096 bytes
 (epstopdf)             Output file: <img/img06-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:48
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 11370 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img06-eps-converted-to
 .pdf img/img06.eps>
-(epstopdf)             \includegraphics on input line 624.
+(epstopdf)             \includegraphics on input line 625.
 Package epstopdf Info: Output file is already uptodate.
-<img/img06-eps-converted-to.pdf, id=97, 282.05376pt x 255.95625pt>
+<img/img06-eps-converted-to.pdf, id=96, 282.05376pt x 255.95625pt>
 File: img/img06-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img06-eps-converted-to.pdf>
-Package pdftex.def Info: img/img06-eps-converted-to.pdf used on input line 624.
+Package pdftex.def Info: img/img06-eps-converted-to.pdf used on input line 625.
 
 (pdftex.def)             Requested size: 108.0011pt x 98.00644pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--641
+Underfull \hbox (badness 10000) in paragraph at lines 636--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--641
+Underfull \hbox (badness 10000) in paragraph at lines 636--642
 
  []
 
-[19 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img06-eps-converted-to.pdf>]
+[19 <./img/img06-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/ex15.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 21668 bytes
 (epstopdf)             Output file: <img/ex15-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:49
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 11819 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ex15-eps-converted-to.
 pdf img/ex15.eps>
-(epstopdf)             \includegraphics on input line 665.
+(epstopdf)             \includegraphics on input line 666.
 Package epstopdf Info: Output file is already uptodate.
-<img/ex15-eps-converted-to.pdf, id=105, 463.7325pt x 101.37875pt>
+
+<img/ex15-eps-converted-to.pdf, id=104, 463.7325pt x 101.37875pt>
 File: img/ex15-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/ex15-eps-converted-to.pdf>
-Package pdftex.def Info: img/ex15-eps-converted-to.pdf used on input line 665.
+Package pdftex.def Info: img/ex15-eps-converted-to.pdf used on input line 666.
 (pdftex.def)             Requested size: 288.0011pt x 62.96245pt.
-[20 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/ex15-eps-converted-to.pdf>] [21] [22]
+ [20 <./img/ex15-eps-converted-to.pdf>]
+[21] [22]
 Package epstopdf Info: Source file: <img/img07.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 34537 bytes
 (epstopdf)             Output file: <img/img07-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:51
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 12577 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img07-eps-converted-to
 .pdf img/img07.eps>
-(epstopdf)             \includegraphics on input line 723.
+(epstopdf)             \includegraphics on input line 724.
 Package epstopdf Info: Output file is already uptodate.
-<img/img07-eps-converted-to.pdf, id=118, 173.64874pt x 423.5825pt>
+ <img/img07-eps-converted-to.pdf, id=117, 173.64874pt x 423.5825pt>
 File: img/img07-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img07-eps-converted-to.pdf>
-Package pdftex.def Info: img/img07-eps-converted-to.pdf used on input line 723.
+Package pdftex.def Info: img/img07-eps-converted-to.pdf used on input line 724.
 
 (pdftex.def)             Requested size: 108.0011pt x 263.45866pt.
-[23 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img07-eps-converted-to.pdf>] [24]
+ [23 <./img/img07-eps-converted-to.pdf>]
+[24]
 Package epstopdf Info: Source file: <img/img_08.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 20722 bytes
 (epstopdf)             Output file: <img/img_08-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:52
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 9112 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_08-eps-converted-t
 o.pdf img/img_08.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 845.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_08-eps-converted-to.pdf, id=128, 307.1475pt x 174.6525pt>
+ <img/img_08-eps-converted-to.pdf, id=127, 307.1475pt x 174.6525pt>
 File: img/img_08-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_08-eps-converted-to.pdf>
-Package pdftex.def Info: img/img_08-eps-converted-to.pdf used on input line 844
+Package pdftex.def Info: img/img_08-eps-converted-to.pdf used on input line 845
 .
 (pdftex.def)             Requested size: 108.0011pt x 61.41177pt.
-[25] [26 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_
-2014/img/img_08-eps-converted-to.pdf>] [27] [28]
+ [25] [26 <./img/img_08-eps-converted-to.pdf>] [27] [28]
 Package epstopdf Info: Source file: <img/img_09.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 21628 bytes
 (epstopdf)             Output file: <img/img_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:53
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 9349 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_09-eps-converted-t
 o.pdf img/img_09.eps>
-(epstopdf)             \includegraphics on input line 980.
+(epstopdf)             \includegraphics on input line 981.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_09-eps-converted-to.pdf, id=145, 245.91875pt x 157.58875pt>
+
+<img/img_09-eps-converted-to.pdf, id=144, 245.91875pt x 157.58875pt>
 File: img/img_09-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_09-eps-converted-to.pdf>
-Package pdftex.def Info: img/img_09-eps-converted-to.pdf used on input line 980
+Package pdftex.def Info: img/img_09-eps-converted-to.pdf used on input line 981
 .
 (pdftex.def)             Requested size: 108.0011pt x 69.2094pt.
-[29 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_09-eps-converted-to.pdf>] [30] [31]
+ [29 <./img/img_09-eps-converted-to.pdf>]
+[30] [31]
 Package epstopdf Info: Source file: <img/img_10.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 22372 bytes
 (epstopdf)             Output file: <img/img_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:54
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 9515 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_10-eps-converted-t
 o.pdf img/img_10.eps>
-(epstopdf)             \includegraphics on input line 1088.
+(epstopdf)             \includegraphics on input line 1089.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_10-eps-converted-to.pdf, id=159, 407.5225pt x 119.44624pt>
+ <img/img_10-eps-converted-to.pdf, id=158, 407.5225pt x 119.44624pt>
 File: img/img_10-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_10-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_10-eps-converted-to.pdf used on input line 108
-8.
+9.
 (pdftex.def)             Requested size: 108.0011pt x 31.65492pt.
-[32 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_10-eps-converted-to.pdf>] [33] [34]
+ [32 <./img/img_10-eps-converted-to.pdf>]
+[33] [34]
 Package epstopdf Info: Source file: <img/img11.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 11360 bytes
 (epstopdf)             Output file: <img/img11-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:55
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 6798 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img11-eps-converted-to
 .pdf img/img11.eps>
-(epstopdf)             \includegraphics on input line 1214.
+(epstopdf)             \includegraphics on input line 1215.
 Package epstopdf Info: Output file is already uptodate.
-<img/img11-eps-converted-to.pdf, id=173, 135.50626pt x 145.54375pt>
+ <img/img11-eps-converted-to.pdf, id=172, 135.50626pt x 145.54375pt>
 File: img/img11-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img11-eps-converted-to.pdf>
-Package pdftex.def Info: img/img11-eps-converted-to.pdf used on input line 1214
+Package pdftex.def Info: img/img11-eps-converted-to.pdf used on input line 1215
 .
 (pdftex.def)             Requested size: 71.9989pt x 77.33546pt.
-[35]
+ [35]
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1229.
+1230.
 
 Package epstopdf Info: Source file: <img/img12.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 10823 bytes
 (epstopdf)             Output file: <img/img12-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:56
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 5858 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img12-eps-converted-to
 .pdf img/img12.eps>
-(epstopdf)             \includegraphics on input line 1230.
+(epstopdf)             \includegraphics on input line 1231.
 Package epstopdf Info: Output file is already uptodate.
-<img/img12-eps-converted-to.pdf, id=177, 136.51pt x 139.52126pt>
+<img/img12-eps-converted-to.pdf, id=176, 136.51pt x 139.52126pt>
 File: img/img12-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img12-eps-converted-to.pdf>
-Package pdftex.def Info: img/img12-eps-converted-to.pdf used on input line 1230
+Package pdftex.def Info: img/img12-eps-converted-to.pdf used on input line 1231
 .
 (pdftex.def)             Requested size: 71.9989pt x 73.58612pt.
 
-Underfull \hbox (badness 1383) in paragraph at lines 1222--1233
+Underfull \hbox (badness 1383) in paragraph at lines 1223--1234
 \T2A/cmr/m/n/10.95 си-мо-сти от вре-ме-ни пред-став-ля-ет со-бой пря-мую, как э
 то по-ка-за-
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 1222--1233
+Underfull \hbox (badness 3000) in paragraph at lines 1223--1234
 \T2A/cmr/m/n/10.95 же-нию с по-ло-жи-тель-ной про-ек-ци-ей уско-ре-ния (ско-рос
 ть рас-тет),
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1222--1233
+Underfull \hbox (badness 1735) in paragraph at lines 1223--1234
 \T2A/cmr/m/n/10.95 вре-ме-ни $[]\OML/cmm/m/it/10.95 t[] \OT1/cmr/m/n/10.95 = 0$
 \T2A/cmr/m/n/10.95 , те-ло име-ет неко-то-рую на-чаль-ную ско-рость $[]\OML/cmm
 /m/it/10.95 v[]$\T2A/cmr/m/n/10.95 .
@@ -683,265 +709,278 @@ Underfull \hbox (badness 1735) in paragraph at lines 1222--1233
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
-33.
+34.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-1247.
+1248.
 
 Package epstopdf Info: Source file: <img/eps13.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 12902 bytes
 (epstopdf)             Output file: <img/eps13-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:57
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 6998 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/eps13-eps-converted-to
 .pdf img/eps13.eps>
-(epstopdf)             \includegraphics on input line 1248.
+(epstopdf)             \includegraphics on input line 1249.
 Package epstopdf Info: Output file is already uptodate.
-<img/eps13-eps-converted-to.pdf, id=178, 139.52126pt x 164.615pt>
+<img/eps13-eps-converted-to.pdf, id=177, 139.52126pt x 164.615pt>
 File: img/eps13-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/eps13-eps-converted-to.pdf>
-Package pdftex.def Info: img/eps13-eps-converted-to.pdf used on input line 1248
+Package pdftex.def Info: img/eps13-eps-converted-to.pdf used on input line 1249
 .
 (pdftex.def)             Requested size: 71.9989pt x 84.94972pt.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
-54.
 
-[36 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img11-eps-converted-to.pdf> </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„Р
-ёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/img/img12-eps-converted-to.pdf>]
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
+55.
+
+[36 <./img/img11-eps-converted-to.pdf> <./img/img12-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img14.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 136038 bytes
 (epstopdf)             Output file: <img/img14-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:58
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 37522 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img14-eps-converted-to
 .pdf img/img14.eps>
-(epstopdf)             \includegraphics on input line 1263.
+(epstopdf)             \includegraphics on input line 1264.
 Package epstopdf Info: Output file is already uptodate.
-<img/img14-eps-converted-to.pdf, id=188, 547.04375pt x 243.91125pt>
+
+<img/img14-eps-converted-to.pdf, id=187, 547.04375pt x 243.91125pt>
 File: img/img14-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img14-eps-converted-to.pdf>
-Package pdftex.def Info: img/img14-eps-converted-to.pdf used on input line 1263
+Package pdftex.def Info: img/img14-eps-converted-to.pdf used on input line 1264
 .
 (pdftex.def)             Requested size: 288.0011pt x 128.4126pt.
-[37 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img14-eps-converted-to.pdf> </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„Р
-ёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/img/eps13-eps-converted-to.pdf>]
+ [37 <./img/img14-eps-converted-to.pdf> <./img/eps13-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img15.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 14004 bytes
 (epstopdf)             Output file: <img/img15-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:57:59
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 7889 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img15-eps-converted-to
 .pdf img/img15.eps>
-(epstopdf)             \includegraphics on input line 1317.
+(epstopdf)             \includegraphics on input line 1318.
 Package epstopdf Info: Output file is already uptodate.
-<img/img15-eps-converted-to.pdf, id=200, 239.89626pt x 103.38625pt>
+
+<img/img15-eps-converted-to.pdf, id=199, 239.89626pt x 103.38625pt>
 File: img/img15-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img15-eps-converted-to.pdf>
-Package pdftex.def Info: img/img15-eps-converted-to.pdf used on input line 1317
+Package pdftex.def Info: img/img15-eps-converted-to.pdf used on input line 1318
 .
 (pdftex.def)             Requested size: 126.0022pt x 54.30225pt.
-[38] [39 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_
-2014/img/img15-eps-converted-to.pdf>] [40] [41] [42] [43]
+ [38] [39 <./img/img15-eps-converted-to.pdf>] [40] [41] [42] [43]
 Package epstopdf Info: Source file: <img/img16.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 14859 bytes
 (epstopdf)             Output file: <img/img16-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:00
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 8778 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img16-eps-converted-to
 .pdf img/img16.eps>
-(epstopdf)             \includegraphics on input line 1444.
+(epstopdf)             \includegraphics on input line 1445.
 Package epstopdf Info: Output file is already uptodate.
-<img/img16-eps-converted-to.pdf, id=223, 231.86626pt x 131.49126pt>
+
+<img/img16-eps-converted-to.pdf, id=222, 231.86626pt x 131.49126pt>
 File: img/img16-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img16-eps-converted-to.pdf>
-Package pdftex.def Info: img/img16-eps-converted-to.pdf used on input line 1444
+Package pdftex.def Info: img/img16-eps-converted-to.pdf used on input line 1445
 .
 (pdftex.def)             Requested size: 71.9989pt x 40.83008pt.
 Package epstopdf Info: Source file: <img/img18.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 36456 bytes
 (epstopdf)             Output file: <img/img18-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:01
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 15521 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img18-eps-converted-to
 .pdf img/img18.eps>
-(epstopdf)             \includegraphics on input line 1467.
+(epstopdf)             \includegraphics on input line 1468.
 Package epstopdf Info: Output file is already uptodate.
-<img/img18-eps-converted-to.pdf, id=224, 585.18625pt x 173.64874pt>
+
+<img/img18-eps-converted-to.pdf, id=223, 585.18625pt x 173.64874pt>
 File: img/img18-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img18-eps-converted-to.pdf>
-Package pdftex.def Info: img/img18-eps-converted-to.pdf used on input line 1467
+Package pdftex.def Info: img/img18-eps-converted-to.pdf used on input line 1468
 .
 (pdftex.def)             Requested size: 251.9989pt x 74.77878pt.
-[44 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img16-eps-converted-to.pdf> </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„Р
-ёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/img/img18-eps-converted-to.pdf>]
+ [44 <./img/img16-eps-converted-to.pdf> <./img/img18-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img19.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 36900 bytes
 (epstopdf)             Output file: <img/img19-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:02
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 15372 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img19-eps-converted-to
 .pdf img/img19.eps>
-(epstopdf)             \includegraphics on input line 1479.
+(epstopdf)             \includegraphics on input line 1480.
 Package epstopdf Info: Output file is already uptodate.
-<img/img19-eps-converted-to.pdf, id=234, 189.70876pt x 277.035pt>
+
+<img/img19-eps-converted-to.pdf, id=233, 189.70876pt x 277.035pt>
 File: img/img19-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img19-eps-converted-to.pdf>
-Package pdftex.def Info: img/img19-eps-converted-to.pdf used on input line 1479
+Package pdftex.def Info: img/img19-eps-converted-to.pdf used on input line 1480
 .
 (pdftex.def)             Requested size: 71.9989pt x 105.14334pt.
-[45 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img19-eps-converted-to.pdf>]
+ [45 <./img/img19-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img_20.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 15994 bytes
 (epstopdf)             Output file: <img/img_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:03
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 10105 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_20-eps-converted-t
 o.pdf img/img_20.eps>
-(epstopdf)             \includegraphics on input line 1525.
+(epstopdf)             \includegraphics on input line 1526.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_20-eps-converted-to.pdf, id=241, 207.77625pt x 114.4275pt>
+
+<img/img_20-eps-converted-to.pdf, id=240, 207.77625pt x 114.4275pt>
 File: img/img_20-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_20-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_20-eps-converted-to.pdf used on input line 152
-5.
+6.
 (pdftex.def)             Requested size: 108.0011pt x 59.4782pt.
-[46 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_20-eps-converted-to.pdf>]
+ [46 <./img/img_20-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img_21.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 21082 bytes
 (epstopdf)             Output file: <img/img_21-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:05
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 10787 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_21-eps-converted-t
 o.pdf img/img_21.eps>
-(epstopdf)             \includegraphics on input line 1555.
+(epstopdf)             \includegraphics on input line 1556.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_21-eps-converted-to.pdf, id=248, 214.8025pt x 227.85126pt>
+
+<img/img_21-eps-converted-to.pdf, id=247, 214.8025pt x 227.85126pt>
 File: img/img_21-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_21-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_21-eps-converted-to.pdf used on input line 155
-5.
+6.
 (pdftex.def)             Requested size: 108.0011pt x 114.56158pt.
 Package epstopdf Info: Source file: <img/img_22.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 17875 bytes
 (epstopdf)             Output file: <img/img_22-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:06
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 9804 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_22-eps-converted-t
 o.pdf img/img_22.eps>
-(epstopdf)             \includegraphics on input line 1580.
+(epstopdf)             \includegraphics on input line 1581.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_22-eps-converted-to.pdf, id=249, 177.66376pt x 146.5475pt>
+
+<img/img_22-eps-converted-to.pdf, id=248, 177.66376pt x 146.5475pt>
 File: img/img_22-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_22-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_22-eps-converted-to.pdf used on input line 158
-0.
+1.
 (pdftex.def)             Requested size: 108.0011pt x 89.08748pt.
 
-LaTeX Warning: Reference `r61' on page 47 undefined on input line 1587.
+
+LaTeX Warning: Reference `r61' on page 47 undefined on input line 1588.
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 1589--1606
+Underfull \hbox (badness 1360) in paragraph at lines 1590--1607
 [][]\T2A/cmr/m/n/10.95 Чему ра-вен мо-дуль цен-тро-стре-ми-тель-но-го
  []
 
-[47 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_21-eps-converted-to.pdf> </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„
-РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/img/img_22-eps-converted-to.pdf>] [48]
+[47 <./img/img_21-eps-converted-to.pdf> <./img/img_22-eps-converted-to.pdf>]
+[48]
 Package epstopdf Info: Source file: <img/img_23.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 21103 bytes
 (epstopdf)             Output file: <img/img_23-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:07
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 10162 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_23-eps-converted-t
 o.pdf img/img_23.eps>
-(epstopdf)             \includegraphics on input line 1643.
+(epstopdf)             \includegraphics on input line 1644.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_23-eps-converted-to.pdf, id=262, 255.95625pt x 167.62625pt>
+ <img/img_23-eps-converted-to.pdf, id=261, 255.95625pt x 167.62625pt>
 File: img/img_23-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_23-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_23-eps-converted-to.pdf used on input line 164
-3.
+4.
 (pdftex.def)             Requested size: 108.0011pt x 70.72992pt.
-[49 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_23-eps-converted-to.pdf>]
-Underfull \hbox (badness 1286) in paragraph at lines 1687--1688
+ [49 <./img/img_23-eps-converted-to.pdf>]
+Underfull \hbox (badness 1286) in paragraph at lines 1688--1689
 [][]\T2A/cmr/m/n/10.95 Частота об-ра-ще-ния воз-душ-но-го вин-та са-мо-ле-та 15
 00 об/мин.
  []
 
 [50] [51] [52]
 Package epstopdf Info: Source file: <img/img_24.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 24337 bytes
 (epstopdf)             Output file: <img/img_24-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:09
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 10440 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_24-eps-converted-t
 o.pdf img/img_24.eps>
-(epstopdf)             \includegraphics on input line 1746.
+(epstopdf)             \includegraphics on input line 1747.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_24-eps-converted-to.pdf, id=279, 145.54375pt x 140.525pt>
+
+<img/img_24-eps-converted-to.pdf, id=278, 145.54375pt x 140.525pt>
 File: img/img_24-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_24-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_24-eps-converted-to.pdf used on input line 174
-6.
+7.
 (pdftex.def)             Requested size: 71.9989pt x 69.51611pt.
-[53 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_24-eps-converted-to.pdf>] [54] [55] [56] [57]
+ [53 <./img/img_24-eps-converted-to.pdf>]
+[54] [55] [56] [57]
 Package epstopdf Info: Source file: <img/ris_25.eps>
-(epstopdf)                    date: 2015-05-16 16:34:34
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 33784 bytes
 (epstopdf)             Output file: <img/ris_25-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:10
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 14059 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ris_25-eps-converted-t
 o.pdf img/ris_25.eps>
-(epstopdf)             \includegraphics on input line 1869.
+(epstopdf)             \includegraphics on input line 1870.
 Package epstopdf Info: Output file is already uptodate.
-<img/ris_25-eps-converted-to.pdf, id=300, 579.16376pt x 140.525pt>
+
+<img/ris_25-eps-converted-to.pdf, id=299, 579.16376pt x 140.525pt>
 File: img/ris_25-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/ris_25-eps-converted-to.pdf>
-Package pdftex.def Info: img/ris_25-eps-converted-to.pdf used on input line 186
-9.
+Package pdftex.def Info: img/ris_25-eps-converted-to.pdf used on input line 187
+0.
 (pdftex.def)             Requested size: 251.9989pt x 61.14288pt.
-[58 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/ris_25-eps-converted-to.pdf>] [59]
+ [58 <./img/ris_25-eps-converted-to.pdf>]
+[59]
 Package epstopdf Info: Source file: <img/ris_26.eps>
-(epstopdf)                    date: 2015-05-16 16:34:34
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 26722 bytes
 (epstopdf)             Output file: <img/ris_26-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:11
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 11522 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ris_26-eps-converted-t
 o.pdf img/ris_26.eps>
-(epstopdf)             \includegraphics on input line 1939.
+(epstopdf)             \includegraphics on input line 1940.
 Package epstopdf Info: Output file is already uptodate.
-<img/ris_26-eps-converted-to.pdf, id=310, 222.8325pt x 174.6525pt>
+ <img/ris_26-eps-converted-to.pdf, id=309, 222.8325pt x 174.6525pt>
 File: img/ris_26-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/ris_26-eps-converted-to.pdf>
-Package pdftex.def Info: img/ris_26-eps-converted-to.pdf used on input line 193
-9.
+Package pdftex.def Info: img/ris_26-eps-converted-to.pdf used on input line 194
+0.
 (pdftex.def)             Requested size: 71.9989pt x 56.43092pt.
-[60 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/ris_26-eps-converted-to.pdf>]
-Overfull \hbox (33.47237pt too wide) detected at line 1991
+ [60 <./img/ris_26-eps-converted-to.pdf>]
+Overfull \hbox (33.47237pt too wide) detected at line 1992
 []\OT1/cmr/m/n/10.95 2 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmr/m/n/10.95 1 \OMS/cms
 y/m/n/10.95 ! \OML/cmm/m/it/10.95 m[][] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.9
 5 m[][] \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 m[]\OT1/cmr/m/n/10.95 ^^A[] =
@@ -953,118 +992,120 @@ ML/cmm/m/it/10.95 m[][]
 
 [61]
 Package epstopdf Info: Source file: <img/img_27.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 30952 bytes
 (epstopdf)             Output file: <img/img_27-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:12
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 14269 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_27-eps-converted-t
 o.pdf img/img_27.eps>
-(epstopdf)             \includegraphics on input line 2017.
+(epstopdf)             \includegraphics on input line 2018.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_27-eps-converted-to.pdf, id=321, 205.76875pt x 185.69376pt>
+ <img/img_27-eps-converted-to.pdf, id=320, 205.76875pt x 185.69376pt>
 File: img/img_27-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_27-eps-converted-to.pdf>
 Package pdftex.def Info: img/img_27-eps-converted-to.pdf used on input line 201
-7.
+8.
 (pdftex.def)             Requested size: 90.0pt x 81.21814pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2019
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2020
 \T2A/cmr/m/n/10.95 рость пер-во-го ва-го-на.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2030--2030
+Underfull \hbox (badness 10000) in paragraph at lines 2031--2031
 
  []
 
 
-Overfull \hbox (67.28964pt too wide) detected at line 2048
+Overfull \hbox (67.28964pt too wide) detected at line 2049
 \OML/cmm/m/it/10.95 v[] \OT1/cmr/m/n/10.95 = [] = [] = 0\OML/cmm/m/it/10.95 ; \
 OT1/cmr/m/n/10.95 225 \T2A/cmr/m/n/10.95 м\OML/cmm/m/it/10.95 =\T2A/cmr/m/n/10.
 95 с
  []
 
-[62 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_27-eps-converted-to.pdf>]
+[62 <./img/img_27-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img_28.eps>
-(epstopdf)                    date: 2015-05-16 16:34:32
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 18901 bytes
 (epstopdf)             Output file: <img/img_28-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:13
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 9132 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_28-eps-converted-t
 o.pdf img/img_28.eps>
-(epstopdf)             \includegraphics on input line 2059.
+(epstopdf)             \includegraphics on input line 2060.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_28-eps-converted-to.pdf, id=328, 217.81375pt x 178.6675pt>
+
+<img/img_28-eps-converted-to.pdf, id=327, 217.81375pt x 178.6675pt>
 File: img/img_28-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_28-eps-converted-to.pdf>
-Package pdftex.def Info: img/img_28-eps-converted-to.pdf used on input line 205
-9.
+Package pdftex.def Info: img/img_28-eps-converted-to.pdf used on input line 206
+0.
 (pdftex.def)             Requested size: 270.0pt x 221.47452pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2071--2071
+Underfull \hbox (badness 10000) in paragraph at lines 2072--2072
 
  []
 
-[63 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_28-eps-converted-to.pdf>]
+[63 <./img/img_28-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/img_29.eps>
-(epstopdf)                    date: 2015-05-16 16:34:34
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 32218 bytes
 (epstopdf)             Output file: <img/img_29-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-16 19:58:14
+(epstopdf)                    date: 2016-06-07 12:28:42
 (epstopdf)                    size: 11970 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/img_29-eps-converted-t
 o.pdf img/img_29.eps>
-(epstopdf)             \includegraphics on input line 2109.
+(epstopdf)             \includegraphics on input line 2110.
 Package epstopdf Info: Output file is already uptodate.
-<img/img_29-eps-converted-to.pdf, id=335, 155.58125pt x 182.6825pt>
+
+<img/img_29-eps-converted-to.pdf, id=334, 155.58125pt x 182.6825pt>
 File: img/img_29-eps-converted-to.pdf Graphic file (type pdf)
+
 <use img/img_29-eps-converted-to.pdf>
-Package pdftex.def Info: img/img_29-eps-converted-to.pdf used on input line 210
-9.
+Package pdftex.def Info: img/img_29-eps-converted-to.pdf used on input line 211
+0.
 (pdftex.def)             Requested size: 90.0pt x 105.67715pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2120--2120
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2121
 
  []
 
-[64 </home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/
-img/img_29-eps-converted-to.pdf>] [65] [66] [67]
-Underfull \hbox (badness 10000) in paragraph at lines 2279--2279
+[64 <./img/img_29-eps-converted-to.pdf>] [65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 2280--2280
 
  []
 
-[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
-[84]
-Underfull \hbox (badness 2213) in paragraph at lines 2992--2993
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[83] [84]
+Underfull \hbox (badness 2213) in paragraph at lines 2993--2994
 [][]\T2A/cmr/m/n/10.95 Электрическое вза-и-мо-дей-ствие осу-ществ-ля-ет-ся по с
 хе-ме \T2A/cmr/bx/n/10.95 тело--
  []
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 3047--3048
+Underfull \hbox (badness 10000) in paragraph at lines 3048--3049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3061--3061
+Underfull \hbox (badness 10000) in paragraph at lines 3062--3062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3063--3064
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3065
 
  []
 
 [86]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3066.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3067.
 
 
-Overfull \hbox (136.97318pt too wide) detected at line 3073
+Overfull \hbox (136.97318pt too wide) detected at line 3074
 \OML/cmm/m/it/10.95 F \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 ;  F[] \OT1/cm
 r/m/n/10.95 = []\OML/cmm/m/it/10.95 ;  F[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it
 /10.95 ;  r \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 AC \OT1/cmr/m/n/10.95 = \O
@@ -1074,7 +1115,7 @@ sy/m/n/10.95 ! \OML/cmm/m/it/10.95 F[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95
  []
 
 
-Overfull \hbox (96.07472pt too wide) detected at line 3079
+Overfull \hbox (96.07472pt too wide) detected at line 3080
 \OML/cmm/m/it/10.95 L[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[] \OT1/cmr/m
 /n/10.95 + \OML/cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 R[
 ] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 ;  F \OT1/cmr/m/n/10.95 = [][]\OML
@@ -1083,22 +1124,22 @@ Overfull \hbox (96.07472pt too wide) detected at line 3079
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3083--3084
+Underfull \hbox (badness 10000) in paragraph at lines 3084--3085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3097--3097
+Underfull \hbox (badness 10000) in paragraph at lines 3098--3098
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3100--3101
+Underfull \hbox (badness 10000) in paragraph at lines 3101--3102
 
  []
 
 
-Overfull \hbox (31.63736pt too wide) detected at line 3114
+Overfull \hbox (31.63736pt too wide) detected at line 3115
 \OML/cmm/m/it/10.95 v \OT1/cmr/m/n/10.95 = [] = 2200 \OMS/cmsy/m/n/10.95 ^^A \O
 T1/cmr/m/n/10.95 10[] \T2A/cmr/m/n/10.95 м\OML/cmm/m/it/10.95 =\T2A/cmr/m/n/10.
 95 с \OT1/cmr/m/n/10.95 = 2200 \T2A/cmr/m/n/10.95 км\OML/cmm/m/it/10.95 =\T2A/c
@@ -1108,122 +1149,122 @@ mr/m/n/10.95 с
 [87] [88] [89] [90] [91]
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 3
-211.
+212.
 
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 3
-211.
+212.
 
 [92] [93] [94] [95]
-Underfull \hbox (badness 10000) in paragraph at lines 3347--3347
+Underfull \hbox (badness 10000) in paragraph at lines 3348--3348
 
  []
 
 [96]
-Underfull \hbox (badness 10000) in paragraph at lines 3387--3387
+Underfull \hbox (badness 10000) in paragraph at lines 3388--3388
 
  []
 
 [97]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3427.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3428.
 
 [98]
-Underfull \hbox (badness 10000) in paragraph at lines 3521--3521
+Underfull \hbox (badness 10000) in paragraph at lines 3522--3522
 
  []
 
 
-Overfull \hbox (16.88539pt too wide) detected at line 3540
+Overfull \hbox (16.88539pt too wide) detected at line 3541
 []
  []
 
 [99]
-Underfull \hbox (badness 10000) in paragraph at lines 3557--3557
+Underfull \hbox (badness 10000) in paragraph at lines 3558--3558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3584--3584
+Underfull \hbox (badness 10000) in paragraph at lines 3585--3585
 \OML/cmm/m/it/10.95 E \OT1/cmr/m/n/10.95 = 100 \T2A/cmr/m/n/10.95 Н\OML/cmm/m/i
 t/10.95 =\T2A/cmr/m/n/10.95 Кл$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3584--3584
+Underfull \hbox (badness 10000) in paragraph at lines 3585--3585
 
  []
 
 [100] [101]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3636.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3637.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3636--3636
+Underfull \hbox (badness 10000) in paragraph at lines 3637--3637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3661--3661
+Underfull \hbox (badness 10000) in paragraph at lines 3662--3662
 
  []
 
 [102]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3674.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3675.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3674.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3675.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3674.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3675.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3674.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3675.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3677.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3678.
 
 [103]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 3701.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3702.
 
 [104] [105] [106] [107]
-Underfull \hbox (badness 10000) in paragraph at lines 3809--3809
+Underfull \hbox (badness 10000) in paragraph at lines 3810--3810
 
  []
 
 [108] [109]
-Underfull \hbox (badness 10000) in paragraph at lines 3885--3885
+Underfull \hbox (badness 10000) in paragraph at lines 3886--3886
 
  []
 
 [110]
-Underfull \hbox (badness 10000) in paragraph at lines 3916--3916
+Underfull \hbox (badness 10000) in paragraph at lines 3917--3917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3945--3945
+Underfull \hbox (badness 10000) in paragraph at lines 3946--3946
 
  []
 
 [111]
-Underfull \hbox (badness 10000) in paragraph at lines 3979--3979
+Underfull \hbox (badness 10000) in paragraph at lines 3980--3980
 
  []
 
 [112]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4010.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4011.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4010--4010
+Underfull \hbox (badness 10000) in paragraph at lines 4011--4011
 
  []
 
 
-Overfull \hbox (10.06906pt too wide) detected at line 4018
+Overfull \hbox (10.06906pt too wide) detected at line 4019
 \OML/cmm/m/it/10.95 v \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 ; R \OT1/cmr/m
 /n/10.95 = \OML/cmm/m/it/10.95 l []   \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.9
 5 v \OT1/cmr/m/n/10.95 = [] = [] = 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3 
@@ -1232,37 +1273,37 @@ Overfull \hbox (10.06906pt too wide) detected at line 4018
  []
 
 [113]
-Overfull \hbox (12.36586pt too wide) in paragraph at lines 4035--4036
+Overfull \hbox (12.36586pt too wide) in paragraph at lines 4036--4037
 [][]\T2A/cmr/m/n/10.95 При по-мо-щи лен-точ-но-го транс-пор-те-ра с уг-лом на-к
 ло-на 20$[]$поднимают
  []
 
 
-Overfull \hbox (12.36586pt too wide) in paragraph at lines 4057--4058
+Overfull \hbox (12.36586pt too wide) in paragraph at lines 4058--4059
 [][]\T2A/cmr/m/n/10.95 При по-мо-щи лен-точ-но-го транс-пор-те-ра с уг-лом на-к
 ло-на 30$[]$поднимают
  []
 
 [114] [115] [116]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4130.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4131.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4130.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4131.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4142.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4143.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4142.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4143.
 
 [117]
-Underfull \hbox (badness 10000) in paragraph at lines 4178--4178
+Underfull \hbox (badness 10000) in paragraph at lines 4179--4179
 
  []
 
 [118]
-Overfull \hbox (51.61288pt too wide) detected at line 4200
+Overfull \hbox (51.61288pt too wide) detected at line 4201
 \OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/
 m/n/10.95 (\OML/cmm/m/it/10.95 X[] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 
 X[]\OT1/cmr/m/n/10.95 );  \OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = [] = [];  
@@ -1271,86 +1312,84 @@ m/m/it/10.95 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4218--4218
+Underfull \hbox (badness 10000) in paragraph at lines 4219--4219
 
  []
 
 [119]
-Underfull \hbox (badness 10000) in paragraph at lines 4249--4249
+Underfull \hbox (badness 10000) in paragraph at lines 4250--4250
 
  []
 
 [120]
-Underfull \hbox (badness 10000) in paragraph at lines 4272--4272
+Underfull \hbox (badness 10000) in paragraph at lines 4273--4273
 
  []
 
 [121]
-Underfull \hbox (badness 10000) in paragraph at lines 4309--4309
+Underfull \hbox (badness 10000) in paragraph at lines 4310--4310
 
  []
 
 
-Overfull \hbox (107.74458pt too wide) detected at line 4323
+Overfull \hbox (107.74458pt too wide) detected at line 4324
 []
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4337.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4338.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 4337.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 4338.
 
 [122]
-Underfull \hbox (badness 10000) in paragraph at lines 4352--4352
+Underfull \hbox (badness 10000) in paragraph at lines 4353--4353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4377--4377
+Underfull \hbox (badness 10000) in paragraph at lines 4378--4378
 
  []
 
 [123] [124] [125] [126] [127] [128] [129] [130]
-Overfull \hbox (18.19455pt too wide) in paragraph at lines 4612--4616
+Overfull \hbox (18.19455pt too wide) in paragraph at lines 4613--4617
 \T2A/cmr/m/n/10.95 зы-ва-ют-ся вы-нуж-ден-ны-ми ко-ле-ба-ни-я-ми. Рас-смот-рим 
 дви-же-ние кривошипно-
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 4626--4628
+Underfull \hbox (badness 1215) in paragraph at lines 4627--4629
 [][]\T2A/cmr/bx/n/10.95 Пример: \T2A/cmr/m/n/10.95 да-но урав-не-ние ко-ле-ба-н
 ий ма-те-ри-аль-ной точ-ки $\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10.95 =
  []
 
 
-Overfull \hbox (147.72311pt too wide) in paragraph at lines 4629--4637
+Overfull \hbox (147.72311pt too wide) in paragraph at lines 4630--4638
 [][]\T2A/cmr/bx/n/10.95 Решение:  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4638--4639
+Underfull \hbox (badness 10000) in paragraph at lines 4639--4640
 
  []
 
 [131]
-Underfull \hbox (badness 10000) in paragraph at lines 4657--4657
+Underfull \hbox (badness 10000) in paragraph at lines 4658--4658
 
  []
 
 
-Overfull \hbox (126.62236pt too wide) in paragraph at lines 4647--4658
+Overfull \hbox (126.62236pt too wide) in paragraph at lines 4648--4659
 [][]\T2A/cmr/bx/n/10.95 Итак:  [] 
  []
 
 [132] [133] [134] [135] [136] [137] [138] [139] [140]
-Underfull \hbox (badness 10000) in paragraph at lines 4971--4971
+Underfull \hbox (badness 10000) in paragraph at lines 4972--4972
 
  []
 
-[141] [142] [143]
-(/home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР»Р°СЃСЃ_2014/phy.
-aux)
+[141] [142] [143] (./phy.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1359,36 +1398,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5533 strings out of 494507
- 72819 string characters out of 6173545
- 127527 words of memory out of 5000000
- 8612 multiletter control sequences out of 15000+600000
+ 5530 strings out of 493054
+ 70869 string characters out of 6140587
+ 131872 words of memory out of 5000000
+ 8907 multiletter control sequences out of 15000+600000
  20259 words of font info for 53 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
- 37i,10n,29p,1892b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/osabio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/os
-abio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.600pk> </home/osabio/.texmf-
-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/osabio/.texmf-var/fonts/pk
-/ljfour/lh/lh-t2a/larm0800.600pk> </home/osabio/.texmf-var/fonts/pk/ljfour/lh/l
-h-t2a/labx1095.600pk> </home/osabio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx14
-40.600pk> </home/osabio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </
-home/osabio/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/osabio/
-.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600pk></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /home/osabio/Р”РѕРєСѓРјРµРЅС‚С‹/РљРЅРёРіР°_С„РёР·РёРєР°_9_РєР
-»Р°СЃСЃ_2014/phy.pdf (143 pages, 1137102 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 37i,10n,29p,1818b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/
+texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/font
+s/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/
+cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx24
+88.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/
+fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
+ti1200.pfb>
+Output written on phy.pdf (143 pages, 1309068 bytes).
 PDF statistics:
- 1036 PDF objects out of 1200 (max. 8388607)
- 444 compressed objects within 5 object streams
+ 664 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,90 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/bitrix/templates/tns_region_v3/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>Печать переданных показаний</title>
+    <style>
+        html,body{
+            color: #575756;
+            font-size: 14px;
+            line-height: 18px;
+            font-family: 'Roboto', sans-serif;
+            width: 550px;
+            margin: 0;
+        }
+        #print{
+            border: 2px solid #1D1D1B;
+            padding: 20px 15px;
+        }
+        h1{
+            font-size: 18px;
+            margin: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        b{
+            color: #1D1D1B;
+        }
+        p {
+            margin: 5px 0;
+        }
+        a, input{
+            font-family: 'Roboto', sans-serif;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            background-color: #13a438;
+            font-weight: 900;
+            line-height: 28px;
+            padding: 3px 0 0 0;
+            text-align: center;
+            width: 128px;
+            vertical-align: top;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-bottom: 3px solid #197731;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            -webkit-transition: background-color 0.15s ease;
+            -moz-transition: background-color 0.15s ease;
+            -o-transition: background-color 0.15s ease;
+            transition: background-color 0.15s ease;
+            -webkit-transition-property: background-color, border-color;
+            -moz-transition-property: background-color, border-color;
+            -o-transition-property: background-color, border-color;
+            transition-property: background-color, border-color;
+        }
+        a:hover{
+            background-color: #197731;
+            border-color: #055c1c;
+        }
+        @media print{
+            a{
+                display: none;
+            }
+            input{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="print">
+                <h1>Уважаемый абонент!</h1>
+            <div>
+                <p>Указанная Вами информация о показаниях счётчика успешно передана<br>в ПАО «ТНС Энерго НН».</p>
+                <p>Переданные Вами данные:</p>
+            </div>
+            <div>Лицевой счёт: <b>0065314181</b></div>
+            <div style="margin-bottom: 5px;">Адрес: <b>Г. Н.НОВГОРОД,  УЛ. ДРУЖБЫ  Д. 60 КВ. 56</b></div>
+            <div><b>Информация передана за сентябрь 2016 г.</b></div>
+                                            <div>дневная зона: <b>5305 кВт·ч</b></div><div>ночная зона: <b>3989 кВт·ч</b></div>                        <div><p>Дата передачи показаний: <b>25.09.2016 г.</b></p></div>
+                                                </div>
+</body>
+</html>
