@@ -198,12 +198,16 @@ INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT img/figure_1.png
 INPUT ./img/figure_1.png
 INPUT ./img/figure_1.png
+INPUT img/figure_2.png
+INPUT ./img/figure_2.png
+INPUT ./img/figure_2.png
 INPUT other/index.aux
 INPUT other/index.out
 INPUT other/index.out
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb

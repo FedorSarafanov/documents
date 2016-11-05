@@ -15,6 +15,11 @@
 \newcommand{\Dl}{\Delta{}(\lambda)}
 \newcommand{\dmsr}{<\Delta{}m>}
 \newcommand{\el}{\varepsilon(\lambda)}
+\newcommand{\F}{\vec{F}}
+\newcommand{\A}{\vec{a}}
+\newcommand{\E}{\vec{E}}
+\newcommand{\B}{\vec{B}}
+\newcommand{\V}{\vec{v}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{addons/lab-kol} % колинтулы на страницах
@@ -221,5 +226,136 @@ $1100$ & $0.46$ & $1.08$ & $1.74\cdot10^{11}$ & $1.02\cdot10^{10}$ & $0.74$ \\ \
 По данным таблицы среднеквадратичное отклонение будет составлять $0.061\cdot10^{11}$, среднее значение $\frac{e}{m}=1.76\cdot10^{11}$.
 
 Доверительный интервал будет составлять от $1.70\cdot10^{11}$ до $1.82\cdot10^{11}$. Этим методом нашли $\frac{e}{m}$ так, что известное табличное значение попадает в доверительный интервал, а экспериментальное значение лежит еще ближе к известному.
+
+\begin{gather}
+	\F=m\A\\
+	m\A=e\E+e(\V\times\B)
+\end{gather}
+
+Пусть $\eta=\frac{e}{m}$. Тогда
+
+\begin{gather}
+	\A=\eta\E+\eta(\V\times\B)
+\end{gather}
+
+Разложим $\A$, $\V$, $\B$ и $\E$ по ортонормированному базису $(\vec{i},\vec{j},\vec{k})$:
+
+\begin{gather}
+	\A=\frac{d^2x}{dt^2}\cdot\vec{i}+\frac{d^2y}{dt^2}\cdot\vec{j}+\frac{d^2z}{dt^2}\cdot\vec{k}\\
+	\V=\frac{dx}{dt}\cdot\vec{i}+\frac{dy}{dt}\cdot\vec{j}+\frac{dz}{dt}\cdot\vec{k}\\
+	\E=E_x\cdot\vec{i}+0\cdot\vec{i}+0\cdot\vec{i}\\
+	\B=0\cdot\vec{i}+0\cdot\vec{i}+B_z\cdot\vec{i}
+\end{gather}
+
+Перепишем векторное произведение $\V\times\B$:
+
+\begin{gather}
+	\label{vec}
+	\V\times\B = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ v_x & v_y & v_z \\ B_x & B_y & B_z \end{vmatrix}=(v_yB_z-v_zB_y)\vec{i}+(v_zB_x-v_xB_z)\vec{j}+(v_xB_y-v_yB_x)\vec{k}
+\end{gather}
+
+Запишем второй закон Ньютона с учетом (\ref{vec}) в проекциях на оси:
+
+\begin{equation}
+\label{ma_xyz}
+ \begin{cases}
+   \frac{d^2x}{dt^2}=\eta{}E_x+\eta(v_yB_z-v_zB_y)\\
+   \frac{d^2y}{dt^2}=\eta{}E_y+\eta(v_zB_x-v_xB_z)\\
+   \frac{d^2z}{dt^2}=\eta{}E_z+\eta(v_xB_y-v_yB_x)\\
+ \end{cases}
+\end{equation}
+
+Обозначим $\omega=\eta{B}$. Учитывая, что $v_y=\frac{dy}{dt}$, $v_x=\frac{dx}{dt}$,  а $E=E_x$ и $B=B_z$, перепишем систему (\ref{ma_xyz}):
+
+\begin{equation}
+\label{dv}
+ \begin{cases}
+   \frac{dv_x}{dt}=\eta{}E+\omega{}v_y\\
+   \frac{dv_y}{dt}=-\omega{}v_x\\
+   \frac{dv_z}{dt}=0\\
+ \end{cases}
+\end{equation}
+
+Решим дифференциальные уравнения:
+
+\begin{gather}
+	\label{diff}
+	 dv_y=-\omega{}v_x{}dt\\
+	 \int dv_y=-\int\omega{}v_x{}dt\\
+	 v_y=-\omega{}v_x{}t+C
+\end{gather}
+
+Но по начальным условиям $v_y(t=0)=0,v_x(t=0)=0$. Тогда $C=0$. Подставим $v_y=-\omega{}v_x{}t$ в уравнение системы (\ref{dv}):
+
+\begin{equation}
+	\frac{dV_x}{dt}=\eta{}E-\omega^2{}x\\
+\end{equation}
+
+Это уравнение является уравнением гармонического осциллятора и имеет известное решение:
+
+\begin{equation}
+	x=A\cos{(\omega{t}+\phi_0)}+\frac{\eta{E}}{\omega^2}
+\end{equation}
+
+\begin{equation}
+	\frac{dx}{dt}=-\omega{A}\sin{(\omega{t}+\phi_0)}
+\end{equation}
+
+Найдем $A$ и $\phi_0$ из начальных условий $v_x(t=0)=0, x(t=0)=0$:
+
+\begin{equation}
+\label{Aphi}
+ \begin{cases}
+    \begin{cases}
+   		A\cos{(\omega{t}+\phi_0)}+\frac{\eta{E}}{\omega^2}=0\\
+   		-\omega{A}\sin{(\omega{t}+\phi_0)}=0
+ 	\end{cases}\\
+ 	A\geq0\\
+ 	0\leq\phi_0\leq\pi
+ \end{cases}
+\end{equation}
+
+Решением (\ref{Aphi}) будет $\phi_0=\pi$ и $A=\eta\frac{E}{\omega^2}$. Тогда можем записать уравнение $x(t)$:
+
+\begin{gather}
+	x(t)=\eta\frac{E}{\omega^2}(1-\cos{\omega{t}})\\
+	v_x(t)=-\omega{A}\sin{(\omega{t}+\phi_0)}=\eta\frac{E}{\omega}\sin{\omega{t}}
+\end{gather}
+
+Так как $\frac{dy}{dt}=-\omega{x}$, то $dy=-\omega\eta\frac{E}{\omega^2}(1-\cos{\omega{t}}){dt}$, и:
+
+\begin{gather}
+	y(t)=\eta\frac{E}{\omega^2}(\sin{\omega{t}}-\omega{t})\\
+	v_y(t)=\eta\frac{E}{\omega}(\cos\omega{t}-1)
+\end{gather}
+
+Обозначим длину пластин $L$. Из уравнения (\ref{dv}) ($\frac{dv_z}{dt}=0$) следует, что скорость $v_z$ постоянна. Тогда время $\tau$ пролета сквозь пластини будет выражаться как:
+\begin{equation}
+	\tau=\frac{L}{v_z}
+\end{equation}
+
+Запишем формулу ларморовского радиуса, по которому электрон будет обращаться по вылете из пластин:
+\begin{equation}
+	r=\frac{mv_\perp}{eB}=\frac{v_\perp}{\eta{B}}=\frac{v_\perp}{\omega}
+\end{equation}
+
+Где 
+\begin{equation}
+	v_\perp=\sqrt{v_y(\tau)^2+v_x(\tau)^2}
+\end{equation}
+
+Итак, можем считать известными координаты и модуль скорости (в плоскости $XY$) электрона. Найдем направление:
+\begin{equation}
+	\tg{\alpha}=\frac{v_y(\tau)}{v_x(\tau)}
+\end{equation}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{figure_2.png}
+	\caption{Вылет электрона из скрещенных полей в точке O}
+	\label{fig:figure1}
+\end{figure}
+
+Вылетая из скрещенных полей в момент времени $\tau$, электрон летит со скоростью $v_\perp$ в плоскости $XY$ и под действием магнитного поля вращается по окружности (также в плоскости $XY$), причем центр окружности будет лежать на нормали к вектору скорости (легко понять из определения силы Лоренца). Тогда можно найти угол $\Phi$ -- начальную фазу, набранную в скрещенных полях, из геометрии - это будет $\frac{\pi}{2}+\alpha$.
 
 \end{document}

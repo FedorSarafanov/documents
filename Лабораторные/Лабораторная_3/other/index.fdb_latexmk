@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1478118072 "index.tex" "other/index.pdf" "index" 1478271725
+["pdflatex"] 1478296673 "index.tex" "other/index.pdf" "index" 1478296676
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1465291798 3308 eee81981029f67083258db36df06e523 ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1465291801 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1467578625 3312 d199be9bd555944e2403193d58a0256a ""
@@ -31,6 +31,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1471317719 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1471317722 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1471317722 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1471317722 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1471317722 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1471317722 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1471317722 32734 69e00a6b65cedb993666e42eedb3d48f ""
@@ -123,12 +124,13 @@
   "addons/lab-head.tex" 1475913081 3409 a7e9d116fd8f7db02e2e8002e6905ac3 ""
   "addons/lab-kol.tex" 1475912920 770 b3eb8c4febb941b3df4e8a8bd7318a59 ""
   "img/figure_1.png" 1477547607 31342 7502320671d942f6163e37bea3e75706 ""
-  "index.tex" 1478118071 12467 ee37496df239db52414983bf3492094f ""
-  "other/index.aux" 1478118073 5933 b48bf75ea4d81b25fb82b7392825232a ""
-  "other/index.out" 1478118073 2251 9e663bdad3f9daec8943cd47bbd84615 ""
+  "img/figure_2.png" 1478296403 197572 1c6ecbf289fb536cffeb67344e4ae48f ""
+  "index.tex" 1478296670 17779 e36e9c14c9ff36c5d17bd2f96e6ba751 ""
+  "other/index.aux" 1478296676 7810 d3c2bfc56ef02b4ad698ad5f8e0ce7f7 ""
+  "other/index.out" 1478296676 2251 9e663bdad3f9daec8943cd47bbd84615 ""
   (generated)
-  "other/index.log"
-  "other/index.pdf"
   "other/index.sympy"
-  "other/index.aux"
+  "other/index.log"
   "other/index.out"
+  "other/index.pdf"
+  "other/index.aux"

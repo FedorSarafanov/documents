@@ -20,7 +20,8 @@ dI=0.015
 
 def delta_n(I1,I2):
 	dn=I1/(I2-I1)*(dI/I1+2*dI/(I2-I1))
-	return [I1/(I2-I1),I1/(I2-I1)-dn,I1/(I2-I1)+dn]
+	# return [I1/(I2-I1),I1/(I2-I1)-dn,I1/(I2-I1)+dn]
+	return I1/(I2-I1)
 
 # Переменные
 def great(U_a,I,L,d,vert):
@@ -104,7 +105,7 @@ def great(U_a,I,L,d,vert):
 	# print(tau, 2*pi/omega)
 	t=np.linspace(0,2*tau,100)
 
-	phi_0=phi(tau)+pi/2
+	phi_0=atan(phi(tau))+pi/2
 	# print(y(t))
 	# print(R,R_)
 
@@ -112,7 +113,9 @@ def great(U_a,I,L,d,vert):
 	# ax.plot(x_(t), y_(t), z(t), label='parametric', alpha=0.7, color='red')
 	# 
 	# print(phi_0)
-	return (2*pi+phi_0)/(2*pi)
+	# print(x([tau]),y([tau]),v_x(tau),v_y(tau))
+	# return (2*pi-phi_0)/(2*pi)
+	return((2*pi+phi_0-omega*tau)/2/pi)
 	# plt.show()
 
 print(great(1200,0.6,0.014,0.006,0))
