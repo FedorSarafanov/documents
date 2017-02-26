@@ -1,0 +1,833 @@
+\documentclass[a4paper,12pt]{extarticle}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{misccorr} % в заголовках появляется точка, но при ссылке на них ее нет
+\usepackage{amssymb,amsfonts,amsmath,amsthm}  
+\usepackage{indentfirst}
+\usepackage[usenames,dvipsnames]{color} 
+\usepackage[unicode, colorlinks, urlcolor=magenta, linkcolor=black, pagecolor=black]{hyperref}
+\usepackage{makecell,multirow} 
+\usepackage{ulem}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm}
+\usepackage{fancyhdr} 
+\linespread{1.3} 
+\frenchspacing 
+\renewcommand{\labelenumii}{\theenumii)}
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[outline]{contour}
+\usepackage{float}
+\usepackage[mode=buildnew]{standalone}
+\usepackage{tikz} 
+
+\usepackage{tikz,csvsimple}
+\usetikzlibrary{scopes}
+\usetikzlibrary{decorations.pathreplacing,decorations.pathmorphing,patterns,calc,scopes,arrows,through, shapes.misc}
+\newcommand{\pI}{\vec{p}_i}
+
+% put color to \boxed math command
+% \newcommand*{\boxcolor}{orange}
+\tikzset{force/.style={>=latex,draw=blue,fill=blue}, axis/.style={densely dashed,gray,font=\small}, acceleration/.style={>=open triangle 60,draw=blue,fill=blue}, inforce/.style={force,double equal sign distance=2pt}, interface/.style={pattern = north east lines, draw    = none, pattern color=gray!60, }, cross/.style={cross out, draw=black, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},    cargo/.style={rectangle, fill=black!70, inner sep=2.5mm, }}
+
+\makeatletter
+\renewcommand{\boxed}[2]{
+\textcolor{#1}{%
+\tikz[baseline={([yshift=-1ex]current bounding box.center)}] 
+\node [rectangle, minimum width=1ex,rounded corners,draw]
+{\normalcolor\m@th$\displaystyle#2$};}
+}\makeatother
+
+\newcommand*\cancel[2][thin]{\tikz[baseline] \node [strike out,draw,anchor=text,inner sep=0pt,text=black,#1]{$#2$};}
+
+\begin{document}
+
+\tableofcontents
+
+\section{Динамика системы материальных точек (СМТ)}
+
+% \begin{figure}[htbp]
+% 	\centering
+% 	\begin{tikzpicture}
+% 		\foreach \x in {0,2,...,6} {
+% 			\foreach \y in {0,2,...,4} {
+% 				\draw[fill=black] (\x,\y) circle(2pt);
+% 			}
+% 		}
+
+% 		\draw[->] (0,0) node[below, yshift=-1em] {$m_1$} -- node[above] {$\vec{v}_1$} ++(45:1);
+% 		\draw[->] (2,4) node[below, yshift=-1em] {$m_2$} -- node[above] {$\vec{v}_2$} ++(-45:1);
+% 		\draw[->] (4,2) node[below, yshift=-1em] {$m_i$} -- node[above] {$\vec{v}_i$} ++(-135:1);
+% 		\draw[->] (4,4) node[right, yshift=-1em] {$m_N$} -- node[above] {$\vec{v}_N$} ++(135:1);
+
+% 	\end{tikzpicture}
+% 	\caption{Система из $N$ материальных точек}
+% 	\label{fig:label}
+% \end{figure}
+
+
+
+\subsection{Законы сохранения для системы материальных точек} 
+
+\subsubsection{Теорема о изменении импульса СМТ} 
+
+По определению,
+\begin{equation}
+\vec{p}_i=m_i\vec{v}_i
+\end{equation}
+
+Введем:
+\begin{equation}
+	\vec{p}_c=\sum_{i=1}^N \vec{p}_i\\
+\end{equation}
+
+Можем расписать как
+\begin{equation}
+	\label{dp_i:dt}
+	\frac{d\pI}{dt}=\vec{F}_i=\vec{F}_i^\text{внутр}+\vec{F}_i^\text{внеш}\\
+\end{equation}
+
+Где
+\begin{equation}
+	\vec{F}_i^\text{внутр}=\vec{F}_{1,i}+\vec{F}_{2,i}+\ldots+\vec{F}_{i-1,i}+\vec{F}_{i+1,i}+\ldots+\vec{F}_{N,i}\\
+\end{equation}
+
+Будем рассматривать $\vec{F}_i^\text{внутр}$ для $\forall i$:
+\begin{equation}
+	\begin{aligned}
+		i=1: \quad& \vec{F}_{2,1}+\ldots\\
+		i=2: \quad& \vec{F}_{1,2}+\ldots\\
+	\end{aligned}
+\end{equation}
+
+По третьему закону Ньютона:
+\begin{equation}
+	\vec{F}_{i,j}+\vec{F}_{j,i}=0
+\end{equation}
+
+Тогда
+\begin{equation}
+	\sum_{i=1}^N \vec{F}_i^\text{внутр} = 0
+\end{equation}
+	% \sum_{i=1}^N \frac{d\pI}{dt} = \\
+Подействуем оператором суммы на левую и правую части уравнения (\ref{dp_i:dt}):
+
+\begin{equation}
+	\sum_{i=1}^N \frac{d\pI}{dt}= \underbrace{\sum_{i=1}^N \vec{F}_i^\text{внутр}}_{\equiv 0}+ \underbrace{\sum_{i=1}^N \vec{F}_i^\text{внеш}}_{\equiv \vec{F}_c^\text{внеш}}\\
+\end{equation}
+
+Перепишем левую часть, вытащив дифференцирование из-под суммы:
+\begin{equation}
+	\frac{d}{dt}\sum_{i=1}^{N}\vec{p}_i=\frac{d\vec{p}_c}{dt}
+\end{equation}
+
+И правую:
+\begin{equation}
+	\sum_{i=1}^{N} \vec{F}_i^\text{внеш}=\vec{F}_c^\text{внеш}
+\end{equation}
+
+Тогда получаем \textbf{теорему о изменении импульса СМТ в дифференциальной форме}:
+\begin{equation}
+	\frac{d\vec{p}_c}{dt}=\vec{F}_c^\text{внеш}
+\end{equation}
+
+Интегрируя, получим \textbf{теорему о изменении импульса СМТ в интегральной форме}:
+\begin{equation}
+	\vec{p}_c(t)-\vec{p}_c(t_0)=\int_{t_0}^t \vec{F}_c^\text{внеш}\cdot dt
+\end{equation}
+
+Рассматриваются следующие важные случаи.
+
+\textbf{Случай первый.}  Внешняя сила $\vec{F}_i=1$ равна нулю при любых $i$. Тогда система называется \textit{изолированной}. Такое состояние достигнуть очень сложно: оно, скорее, является гипотетическим.
+
+\begin{equation}
+	\vec{F}^\text{внеш}_i=1 \quad \forall i
+\end{equation}
+Тогда
+\begin{equation}
+	\vec{F}^\text{внеш}_c=0 \Rightarrow \vec{p}_c=const\\
+\end{equation}
+
+\textbf{Случай второй.} Произвольно выбранная внешняя сила может быть не равна нулю, но сумма внешних сил $\vec{F}_c$ равна нулю. Это уже более реальный случай, чем предыдущий.
+\begin{equation}
+	\vec{F}^\text{внеш}_c=0 \Rightarrow \vec{p}_c=const\\
+\end{equation}
+
+
+\textbf{Случай третий.} Сумма внешних сил $\vec{F}_c^\text{внеш}$ не равна нулю, но сохраняется её направление. 
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=0.5]
+	\draw[->] (0,0) -- (3,-1) node[right] {$\vec{F}_c^\text{внеш}$};
+	\draw[dashed] (1.5,-0.5) -- ++ (70:1);
+	\draw[dashed, ->] (1.5,-0.5) -- ++ (250:2) node[below] {$x$};
+	\end{tikzpicture}
+\end{figure}
+
+Тогда можно выбрать такую ось $x$, что в проекции на неё
+\begin{equation}
+	F^\text{внеш}_{cx}=0 \Rightarrow p_{cx}=const\\
+\end{equation}
+
+
+\textbf{Случай четвертый.} Сумма внешних сил $\vec{F}_c^\text{внеш}$ не равна нулю, но если выполняется система условий:
+\begin{equation}
+	\left\{
+	\begin{aligned}
+		|\vec{F}_c^\text{внеш}|\ne\infty\\
+		\Delta t \rightarrow 0
+	\end{aligned}
+	\right.
+\end{equation}
+
+Тогда
+\begin{equation}
+	\vec{p}_{c}=const\\
+\end{equation}
+
+\subsubsection{Теорема о движении центра масс системы материальных точек} 
+
+Разберемся с геометрическим местом центром масс СМТ. 
+
+Пусть мы имеем систему двух МТ $m_1=m_2$, тогда интуитивно $x_c=\frac{x_1+x_2}{2}$:
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}
+		\draw[fill=black, dashed] (-2,0) -- (0,0) circle (2pt) node [above] {$m_1$} -- (2,0) node {$\times$} node[above, yshift=0.5em] {C} node[below, yshift=-0.5em] {$x_c$} -- (4,0) circle (2pt) node [above] {$m_2$} -- (6,0); 
+	\end{tikzpicture}
+	\caption{Система из двух МТ с равными массами}
+	% \label{fig:label}
+\end{figure}
+
+Теперь пусть $m_1\ne m_2$, тогда интуитивно $x_c=\frac{m_1x_1+m_2x_2}{m_1+m_2}$:
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}
+		\draw[fill=black, dashed] (-2,0) -- (0,0) circle (2pt) node [above] {$m_1$} -- (8/3,0) node {$\times$} node[above, yshift=0.5em] {C} node[below, yshift=-0.5em] {$x_c$} -- (4,0) circle (4pt) node [above] {$m_2$} -- (6,0); 
+	\end{tikzpicture}
+	\caption{Система из двух МТ с разными массами}
+	% \label{fig:label}
+\end{figure}
+
+Теперь обобщаем на систему из $N$ материальных точек с произвольными массами:
+
+\begin{equation}
+	\left\{\begin{aligned}
+		x_c=\frac{\sum_{i=1}^{N} m_ix_i}{\sum_{i=1}^{N} m_i}=\frac{\sum_{i=1}^{N} m_ix_i}{m_c}\\
+		y_c=\frac{\sum_{i=1}^{N} m_iy_i}{\sum_{i=1}^{N} m_i}=\frac{\sum_{i=1}^{N} m_iy_i}{m_c}\\
+		z_c=\frac{\sum_{i=1}^{N} m_iz_i}{\sum_{i=1}^{N} m_i}=\frac{\sum_{i=1}^{N} m_iz_i}{m_c}\\
+	\end{aligned}\right.
+\end{equation}
+
+\textbf{Определение.} Центр масс - это такая точка, которая задается радиус-вектором
+\begin{equation}
+	\vec{R}_c=\frac{\sum_{i=1}^N m_i\vec{r}_i}{m_c}
+\end{equation}
+
+Нужно задастся вопросом: \textit{сменится ли положение центра масс от смены точки отсчета (полюса) O?}
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}
+		\draw[fill=black] (4,0) node [right] {$m_i$};
+		\draw[->, >=latex] (0,0) -- node [above] {$\vec{r}^{\,\,'}_i$} (4,0); 
+		\draw[->, >=latex] (0.5,-2) -- node [above] {$\vec{r}_i$} (4,0); 
+		\draw[->, >=latex] (0.5,-2) -- node [left] {$\vec{\rho}$} (0,0); 
+	\end{tikzpicture}
+	% \caption{Система из двух МТ с разными массами}
+	% \label{fig:label}
+\end{figure}
+
+Геометрически очевидно, что
+\begin{equation}
+	\vec{r}_i=\vec{r}^{\,\,'}_i+\vec{\rho}
+\end{equation}
+
+Тогда
+\begin{equation}
+	\vec{R}_c=\frac{\sum_{i=1}^N m_i\vec{r}_i}{m_c}+\vec\rho\frac{\sum_{i=1}^N m_i}{m_c}
+\end{equation}
+	
+И получаем что и требовалось найти: 
+\begin{equation}
+	\vec{R}_c=\vec{R}_c^{\,\,'}+\vec{\rho}
+\end{equation}
+
+Положение центра масс \textit{не зависит} от положения полюса.
+
+
+\textbf{Определение.} Скорость центра масс задается как:
+\begin{equation}
+	\vec{V}_c=\frac{d \vec{R}_c}{dt}
+\end{equation}
+
+\textit{Оговорка:} $v\ll c \Rightarrow m_i=const$. Тогда
+\begin{equation}
+	\vec{V}_c=\frac{1}{m_c}\sum_{i=1}^N m_i \frac{d\vec{r}_i}{dt}=
+	\frac{\sum_{i=1}^N m_i\vec{v}_i}{m_c}
+\end{equation}
+
+\begin{equation}
+	\vec{a}_c=\frac{d\vec{V}_c}{dt}=\frac{d}{dt}
+	\left(\frac{\sum_{i=1}^N m_i\vec{v}_i}{m_c}\right) \bigg|\cdot m_c
+\end{equation}
+
+\begin{equation}
+	m_c\vec{a}_c=\frac{d}{dt}
+	\left(\sum_{i=1}^N m_i\vec{v}_i\right)=\frac{d\vec{p}_c}{dt}=\vec{F}_c^\text{внеш}
+\end{equation}
+
+По сути, весь <<размазанный>> по пространству импульс системы мы можем причислить к одной точке -- \textit{центру масс} системы.
+
+\begin{equation}
+	m_c\vec{a}_c=\vec{F}_c^\text{внеш}
+\end{equation}
+
+Это и есть теорема о движении центра масс системы материальных точек.
+
+Мы получили важный результат: внутренние силы \textit{не могут} создать ускорения СМТ!
+
+
+
+\subsubsection{Динамика тел переменной массы. Уравнение Мещерского} 
+
+\begin{figure}[H]
+\begin{center}
+\begin{minipage}[h]{0.4\linewidth}
+	\begin{tikzpicture}
+		\begin{scope}
+			\clip  (0,0) circle (1.999cm);
+			\draw[pattern=north east lines, pattern color=blue] (0,0) ++ (-135:2) circle (1cm);			
+		\end{scope}
+
+		\coordinate (C) at (1,1);
+
+			\draw[pattern=north west lines, pattern color=blue] (C) ++ (45:2) circle (1cm);			
+		\begin{scope}
+			\clip  (C) circle (2cm);
+			\draw[color=white, fill=white] (C) ++ (45:2) circle (1.1cm);			
+		\end{scope}
+			\draw ([shift=(16:2cm)]C) arc (16:74:2cm);
+
+
+		 \contourlength{1mm};
+
+		\node  at ($(C)+(45:2.5)$) {\contour{white}{$\Delta m_2$}};
+		
+		\node  at ($(0,0)+(-135:1.5)$) {\contour{white}{$\Delta m_1$}};
+
+		\node  at ($(0,0)$) {\contour{white}{$M$}};
+
+		\draw (0,0) circle (2cm);
+
+		\draw[->] ([shift=(45:2cm)]C) -- node[below, yshift=-0.5em] {$\vec{v}_2$} ++(-135:1);
+
+		\draw[->] ([shift=(-45:2cm)]0,0) -- node[above, pos=0.7] {$\vec{v}$} ++(-45:1);
+
+		\draw[color=white] (-3.7,-3.7) rectangle  (3.5,3.5);
+	\end{tikzpicture}
+	\subcaption{Момент времени $t_0$}	
+\end{minipage}
+\hfill 
+\begin{minipage}[h]{0.4\linewidth}
+	\begin{tikzpicture}
+
+		\draw (0,0) circle (2cm);
+		\coordinate (C1) at (-0.02,-0.02);
+
+		\begin{scope}
+			\clip  (C1) circle (1.999cm);
+			\draw[fill=white] (C1) ++ (-135:2) circle (1cm);			
+		\end{scope}
+			% \draw ([shift=(16+180:2cm)]C1) arc (16+180:74+180:2cm);
+
+		\coordinate (C1) at (-1,-1);
+
+		\begin{scope}
+			\clip  (C1) circle (1.999cm);
+			\draw[pattern=north east lines, pattern color=blue] (C1) ++ (-135:2) circle (1cm);			
+		\end{scope}
+			\draw ([shift=(16+180:2cm)]C1) arc (16+180:74+180:2cm);
+
+
+		\coordinate (C) at (0,0);
+
+			\draw[pattern=north west lines, pattern color=blue] (C) ++ (45:2) circle (1cm);			
+		\begin{scope}
+			\clip  (C) circle (2cm);
+			\draw[color=white, fill=white] (C) ++ (45:2) circle (1.1cm);			
+		\end{scope}
+
+
+		 \contourlength{1mm};
+
+		\node  at ($(C)+(45:2.5)$) {\contour{white}{$\Delta m_2$}};
+		
+		\node  at ($(C1)+(-135:1.5)$) {\contour{white}{$\Delta m_1$}};
+
+		\node  at ($(0,0)$) {\contour{white}{$M$}};
+
+
+		\draw[->] ([shift=(-135:2cm)]C1) --  ++(-135:1)
+					node[below] {$\vec{v}_1$};
+
+		\draw[->] ([shift=(-30:2cm)]0,0) -- node[below, pos=1, yshift=0em] {$\vec{v}+\Delta\vec{v}$} ++(-30:1);
+		\draw[color=white] (-3.7,-3.7) rectangle  (3.5,3.5);
+
+	\end{tikzpicture}
+	\subcaption{Момент времени $t_0+\Delta t$}	
+\end{minipage}
+\end{center}
+\end{figure}
+
+Пусть $M$ -- масса <<основного>> тела, $\Delta m_1$ -- то, что 
+<<отвалится>> ($\Delta m_1>0$), $\Delta m_2$ -- то, что присоединится. 
+
+Запишем импульс системы до и после изменения конфигурации:
+\begin{equation}
+	\vec{p}_0=\vec{p}(t_0)=M\vec{v}+\Delta m_2\vec{v}_2=M\vec{v}+\Delta m_2(\vec{v}+\vec{u}_2)
+\end{equation}
+\begin{equation}
+	\vec{p}(t)=(M-\Delta m_1 +\Delta m_2)[\vec{v}+\Delta\vec{v}]+\Delta m_1 ([\vec{v}+\Delta\vec{v}]+\vec{u}_1)
+\end{equation}
+Тогда изменение импульса будет
+\begin{equation}
+	\Delta\vec{p}=
+	\vec{p}(t)-\vec{p}_0=(M-\Delta m_1 +\Delta m_2)[\vec{v}+\Delta\vec{v}]+\Delta m_1 ([\vec{v}+\Delta\vec{v}]+\vec{u}_1)-
+	M\vec{v}-\Delta m_2(\vec{v}+\vec{u}_2)
+\end{equation}
+Теперь нужно аккуратно раскрыть скобки:
+\begin{gather}
+	\begin{aligned}
+		\Delta\vec{p}=
+		\vec{p}(t)-\vec{p}_0=
+		M\vec{v}-\Delta m_1\vec{v} +\Delta m_2\vec{v}+\\+
+		M\Delta\vec{v}-\boxed{red}{\Delta m_1\Delta\vec{v}} +\boxed{red}{\Delta m_2\Delta\vec{v}}+\\+
+		\Delta m_1 \vec{v}+\boxed{red}{\Delta m_1\Delta\vec{v}}+\Delta m_1\vec{u}_1-\\-
+		M\vec{v}-
+		\Delta m_2\vec{v}-\Delta m_2\vec{u}_2
+	\end{aligned}
+\end{gather}
+Величинами вида $\boxed{red}{\Delta \cdot\Delta}$ пренебрежем, как величинами более высокого порядка малости, чем $\Delta$. Приведем подобные:
+\begin{gather}
+	% \begin{aligned}
+		\Delta\vec{p}=
+		\vec{p}(t)-\vec{p}_0=
+			\cancel[thick,draw=green]{M\vec{v}}-\cancel[thick,draw=red]{\Delta m_1\vec{v}} +\cancel[thick,draw=blue]{\Delta m_2\vec{v}}+\\+
+		M\Delta\vec{v}+
+		\cancel[thick,draw=red]{\Delta m_1\vec{v}}+\Delta m_1\vec{u}_1-\\-
+		\cancel[thick,draw=green]{M\vec{v}}-
+		\cancel[thick,draw=blue]{\Delta m_2\vec{v}}-\Delta m_2\vec{u}_2
+	% \end{aligned}
+\end{gather}
+Тогда можем, наконец, окончательно записать изменение импульса:
+\begin{equation}
+	\Delta\vec{p}\backsimeq M\Delta\vec{v}+\Delta m_1\vec{u}_1-\Delta m_2\vec{u}_2
+\end{equation}
+Физика оперирует не бесконечно малыми величинами, а дискретными. Отсюда следует
+\begin{equation}
+	\Delta t \to 0 \quad \Rightarrow \quad \frac{\Delta{\vec{p}}}{\Delta{t}}\to \frac{d\vec{p}}{dt}
+\end{equation}
+Переходя к дифференциалам, равенство запишем строгим:
+\begin{equation}
+	\frac{d\vec{p}}{dt}= M\frac{d\vec{v}}{dt}+\frac{dm_1}{dt}\vec{u}_1-\frac{dm_2}{dt}\vec{u}_2
+\end{equation}
+Под импульсом мы понимали импульс системы, поэтому его производная - равнодействующая внешних сил. Перепишем формулу:
+\begin{equation}
+	M\frac{d\vec{v}}{dt}=\vec{F}^\text{внеш}-\frac{dm_1}{dt}\vec{u}_1+\frac{dm_2}{dt}\vec{u}_2
+\end{equation}
+Это то, к чему мы стремились - уравнение Мещерского.
+\begin{equation}
+	\vec{F}^\text{реакт}=-\frac{dm_1}{dt}\vec{u}_1+\frac{dm_2}{dt}\vec{u}_2
+\end{equation}
+
+\subsubsection{Теорема о изменении момента импульса СМТ}
+
+\textbf{Определение.} Момент импульса $i$-й материальной точки СМТ
+\begin{equation}
+	\vec{N}_i=[\vec{r}_i\times m_i\vec{v}_i]
+\end{equation}
+
+\textbf{Определение.} Момент импульса СМТ
+\begin{equation}
+	\vec{N}_c=\sum_{i=1}^{N}[\vec{r}_i\times m_i\vec{v}_i]
+\end{equation}    
+
+Ранее мы доказали, что $\frac{d\vec{N}}{dt}=\vec{M}$. Зададимся вопросом, так ли это для СМТ?
+
+Для $i$-й материальной точки СМТ
+\begin{equation}
+	\frac{d\vec{N}_i}{dt}=\vec{M}_i=[\vec{r}_i\times \vec{F}_i] \quad \forall i
+\end{equation}
+Тогда
+\begin{equation}
+	\sum_{i=1}^{N}\frac{d\vec{N}_i}{dt}=\sum_{i=1}^{N}[\vec{r}_i\times \vec{F}_i]=
+	\sum_{i=1}^{N}[\vec{r}_i\times (\vec{F}^\text{внеш}_i+\vec{F}^\text{внутр}_i)]
+\end{equation}
+Распишем:
+\begin{equation}
+	\vec{F}^\text{внутр}_i=\vec{F}_{1,i}+\vec{F}_{2,i}+\ldots+\vec{F}_{j-1,i}+\vec{F}_{j+1,i}+\ldots+\vec{F}_{N,i}
+\end{equation}
+\begin{equation}
+	\vec{F}_{i,j}=-\vec{F}_{j,i}
+\end{equation}
+Для взаимодействия $i$-й и $j$-й точек:
+\begin{equation}
+	[\vec{r}_i\times\vec{F}_{j,i}]+[\vec{r}_j\times\vec{F}_{i,j}]=[(\vec{r}_i-\vec{r}_j)\times\vec{F}_{j,i}]=
+	[\vec{r}_{i,j}\times\vec{F}_{j,i}]\equiv0
+\end{equation}
+Это значит, что все $\vec{M}_i^\text{внутр}=0$.
+\begin{equation}
+	\sum_{i=1}^{N}\frac{d\vec{N}_i}{dt}=\sum_{i=1}^{N}[\vec{r}_i\times \vec{F}^\text{внеш}_i]
+\end{equation}
+Получили \textbf{теорему}: \textit{Момент импульса СМТ меняется  за счет \textbf{только} момента внешних сил.}
+\begin{equation}
+	\frac{d\vec{N}_c}{dt}=\vec{M}^\text{внеш}_c
+\end{equation}
+
+\subsubsection{Закон сохранения момента импульса}
+
+
+\textbf{Случай первый.}  Внешняя сила $\vec{F}_i=1$ равна нулю при любых $i$. 
+
+\begin{equation}
+	\vec{F}^\text{внеш}_i=1 \quad \forall i \Rightarrow \vec{M}_c^\text{внеш}=0
+\end{equation}
+Тогда
+\begin{equation}
+	\vec{N}_c=const\\
+\end{equation}
+
+\textbf{Случай второй.} Произвольно выбранная внешняя сила может быть не равна нулю, но момент внешних сил $\vec{M}^\text{внеш}_c$ равен нулю. 
+\begin{equation}
+	\vec{M}^\text{внеш}_c=0 \Rightarrow \vec{N}_c=const\\
+\end{equation}
+
+\textbf{Случай третий.} Произвольно выбранный момент внешней силы может быть не равна нулю, но момент внешних сил $\vec{M}^\text{внеш}_c$ равен нулю. 
+\begin{equation}
+	\vec{M}^\text{внеш}_c=0 \Rightarrow \vec{N}_c=const\\
+\end{equation}
+
+
+\textbf{Случай четвертый.} Момент внешних сил $\vec{M}_c^\text{внеш}$ не равен нулю, но сохраняет направление. 
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[scale=0.5]
+	\draw[->] (0,0) -- (3,-1) node[right] {$\vec{M}_c^\text{внеш}$};
+	\draw[dashed] (1.5,-0.5) -- ++ (70:1);
+	\draw[dashed, ->] (1.5,-0.5) -- ++ (250:2) node[below] {$x$};
+	\end{tikzpicture}
+\end{figure}
+
+Тогда можно выбрать такую ось $x$, что в проекции на неё
+\begin{equation}
+	M^\text{внеш}_{cx}=0 \Rightarrow N_{cx}=const\\
+\end{equation}
+
+
+\textbf{Случай пятый.} Запишем теорему о изменении момента импульса в интегральной форме.
+\begin{equation}
+	\Delta \vec{N}_c=\vec{N}_c(t)-\vec{N}_c(t_0)=\int_{t_0}^t \vec{M}_c^\text{внеш}
+\end{equation}
+Тогда если выполняется система условий:
+\begin{equation}
+	\left\{
+	\begin{aligned}
+		|\vec{M}_c^\text{внеш}|\ne\infty\\
+		\Delta t=t-t_0 \rightarrow 0
+	\end{aligned}
+	\right.
+\end{equation}
+То
+\begin{equation}
+	\vec{N}_{c}=const\\
+\end{equation}
+
+Нужно задастся вопросом: \textit{что зависит от смены точки отсчета (полюса) O?}
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}
+		\draw[fill=black] (4,0) node [right] {$m_i$};
+		\draw[->, >=latex] (0,0) circle (1pt) node[left] {$O'$}  -- node [above] {$\vec{r}^{\,\,'}_i$} (4,0); 
+		\draw[->, >=latex] (0.5,-2) circle (1pt) node[left] {$O$} -- node [above] {$\vec{r}_i$} (4,0); 
+		\draw[->, >=latex] (0.5,-2) -- node [left] {$\vec{\rho}$} (0,0); 
+	\end{tikzpicture}
+	% \caption{Система из двух МТ с разными массами}
+	% \label{fig:label}
+\end{figure}
+\begin{gather}
+	\vec\rho=\vec{OO'}\\
+	\vec{r}_i=\vec\rho+\vec{r'}_i\\
+	\vec{N}_{O'i}=[\vec{r'}_i\times\vec{p}_i]\\
+	\vec{N}_{Oi}=[\vec{r}_i\times\vec{p}_i]=[\vec{r'}_i\times\vec{p}_i]+[\vec\rho\times\vec{p}_i]\\
+	\vec{N}_{Oi}=\vec{N}_{O'i}+[\vec\rho\times\vec{p}_i]\\
+	\vec{N}_{O}=\vec{N}_{O'}+\sum_{i=1}^{N}[\vec\rho\times\vec{p}_i]\\
+	\vec{N}_{O}=\vec{N}_{O'}+[\vec\rho\times\vec{p}_c]
+\end{gather}
+Если мы найдем такую СО, где импульс системы равен нулю, то в ней момент импульса не зависит от выбора точки отсчета.
+
+Такая СО - \textbf{центромассовая}, и если мы в ней -- сопровождающая.
+Будем обозначать величины в ЦМСО звездочкой:
+\begin{equation}
+	\vec{p}_c^{\,*}=0
+\end{equation}
+
+\subsubsection{Связь моментов импульса в лабораторной и центромассовой системах отсчета}
+\newcommand\zi{^{\,*}_i}
+\newcommand\sumn{\sum_{i=1}^{N}}
+$O$ -- начало отсчета в ЛСО (лабораторной системе отсчета), $O'$ -- в ЦМСО (центромассовой системе отсчета).
+\begin{equation}
+	\vec{r}_i=\vec{r}\zi+\vec\rho
+\end{equation}
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (0.5,-2);
+		\coordinate (C) at (4,0);
+		\draw[fill=black] (C) circle (1pt) node [right] {$m_i$};
+		\draw[fill=black] (0,0) circle (1pt) node[left] {$O'$}; 
+		\draw[fill=black] (0.5,-2) circle (1pt) node[left] {$O$}; 
+
+		\draw[->, >=latex] (A) -- node [above] {$\vec{r}\zi$} (C);
+		\draw[->, >=latex] (B) -- node [above] {$\vec{r}_i$}  (C);
+		\draw[->, >=latex] (B) -- node [left] {$\vec{\rho}$}  (A);
+	\end{tikzpicture}
+	% \caption{Система из двух МТ с разными массами}
+	% \label{fig:label}
+\end{figure}
+\begin{gather}
+	\vec{v}_i=\vec{v}\zi+\vec{v}_c\\
+	\vec{N}_i=[\vec{r}_i\times m_i\vec{v}_i]\\
+	\vec{N}_c=\sumn[\vec{r}_i\times m_i\vec{v}_i]=\sumn[(\vec{r}\zi+\vec\rho)\times m_i(\vec{v}\zi+\vec{v}_c)]=\\=
+	\underbrace{\sumn[\vec{r}\zi\times m_i\vec{v}\zi]}_{\displaystyle \equiv {\vec{N}_c^{\,*}}}+
+	\underbrace{\sumn[\vec{r}\zi\times m_i\vec{v}_c]}_{\displaystyle \equiv [\vec{r}_c^{\,*}\times\vec{p}_c]}+
+	\underbrace{\sumn[\vec\rho\times m_i\vec{v}\zi]}_{\displaystyle \equiv [\vec\rho\times\vec{p}_c^{\,*}]=0}+
+	\underbrace{\sumn[\vec\rho\times m_i\vec{v}_c]}_{\displaystyle \equiv [\vec\rho\times\vec{p}_c]}=\\=
+	{\vec{N}_c^{\,*}}+[\vec{r}_c^{\,*}\times\vec{p}_c]+[\vec\rho\times\vec{p}_c]=\\=
+	{\vec{N}_c^{\,*}}+[(\vec{r}_c^{\,*}+\vec\rho)\times\vec{p}_c]=\\=
+	\vec{N}_c^{\,*}+[\vec{r}_c\times\vec{p}_c]
+\end{gather}
+Причем здесь первое слагаемое отвечает за вращение СМТ относительно центра масс, а второе - за вращение центра масс относительно ЛСО.
+% \newpage
+\subsubsection{Уравнение моментов относительно оси}
+
+Введем сферическую систему координат с центром $O$, ортонормированным базисом $\{\vec{e}_r,\vec{e}_\tau,\vec{e}_\phi\}$
+
+\begin{figure}[H]
+\begin{center}
+\begin{minipage}[h]{0.49\linewidth}
+	\centering
+	\begin{tikzpicture}
+		\draw[black!50] (0,0) circle (2cm);
+		\draw[black,fill=black] (0,0) circle (1pt);
+
+		\draw[magenta!70, dashed] (0,0) (180:2.5) -- (0:2.5);
+		\draw[magenta!70, dashed] (0,0) (90:2.5) -- (-90:2.5);
+		\draw[blue, ->, >=latex] (0,0) (90:2.5) -- node[left] {$\vec\omega$} (90:3);
+		 \contourlength{1.5mm};
+		\draw[magenta!70, dashed] (-90:1) node[rotate=90] {\contour{white}{Ось $z$}};
+		\draw[->, >=latex] (0,0) -- node[midway,fill=white!20, opacity=0.9] {$\vec{r}$} (45:2) coordinate (A);
+		\draw[->, >=latex] (0,1.414) -- node[midway,fill=white!20, opacity=0.9] {$\vec{r}_\perp$} (A);
+		\draw[->, >=latex] (0,0) -- node[midway,fill=white!20, opacity=0.9] {$\vec{r}_\parallel$} (0,1.414);
+
+		\draw[magenta,->, >=latex] (A) -- ++(45:0.7) node[right, above] {$\vec{e}_r$};
+		\draw[magenta,->, >=latex] (A) -- ++(135:0.7) node[right, above] {$\vec{e}_\tau$};
+	\end{tikzpicture}
+	\subcaption{Вид в разрезе}	
+\end{minipage}
+\hfill 
+\begin{minipage}[h]{0.49\linewidth}
+	\centering
+	\begin{tikzpicture}
+		\draw[black!50] (0,0) circle (2cm);
+		\draw[black,fill=black] (0,0) circle (1pt);
+
+		\draw[magenta!70, dashed] (0,0) (180:2.5) -- (0:2.5);
+		\draw[magenta!70, dashed] (0,0) (90:2.5) -- (-90:2.5);
+		\draw[blue, ->, >=latex, opacity=0] (0,0) (90:2.5) -- node[left] {$\vec\omega$} (90:3);
+
+
+		\draw[blue] (110:1.2) node[left] {$\bigodot\vec\omega$};
+
+		\draw[->, >=latex] (0,0) -- (0:2) coordinate (A);
+
+		\draw[magenta,->, >=latex] (A) -- ++(0:0.7) node[right, above] {$\vec{e}_r$};
+		\draw[magenta,->, >=latex] (A) -- ++(90:0.7) node[right, above] {$\vec{e}_\phi$};
+	\end{tikzpicture}
+	\subcaption{Вид сверху}	
+\end{minipage}
+\end{center}
+\end{figure}
+\begin{equation}
+	\vec{v}=\vec{v}_\tau+\vec{v}_r+\vec{v}_\phi
+\end{equation}
+Можем записать
+\begin{equation}
+	\vec{v}_\phi=[\omega\times\vec{r}\,]=[\omega\times\vec{r}_\perp]
+\end{equation}    
+Запишем момент импульса по определению:
+\begin{equation}
+	\vec{N}=[\vec{r}\times m\vec{v}\,]=m([\vec{r}\times\vec{v}_\tau]+[\vec{r}\times\vec{v}_r]+[\vec{r}\times\vec{v}_\phi])
+\end{equation}
+Формально запишем его проекцию на $z$:
+\begin{equation}
+	[\vec{N}]_z=[\vec{r}\times m\vec{v}_\phi]=m[\vec{r}\times[\vec\omega\times\vec{r}_\perp]]
+\end{equation}
+Откуда по бессмертному <<бац минус цаб>>
+\begin{equation}
+	N_z=m\omega_z(\vec{r},\vec{r}_\perp)-m\underbrace{(\vec{r}_\perp)_z}_{\equiv 0}(\vec{r},\omega)=m\omega_zr_\perp^2
+\end{equation}
+Все вышеизложенные выкладки были для \textit{одной} материальной точки. Для СМТ:
+\begin{equation}
+	N_{cz}=\sumn m_i\omega_{zi}r_{\perp i}^2
+\end{equation}
+В частном случае, когда все точки тела вращаются с одной угловой скоростью (твердое тело),
+\begin{equation}
+	\omega_{zi}=\omega_z \quad\forall i \Rightarrow N_{cz}=\omega_z\sumn m_i r_{\perp i}^2
+\end{equation}
+\textbf{Определение.} Момент инерции - это мера инертности вращательного движения, выражающаяся как
+\begin{equation}
+	I=\sumn m_i r_{\perp i}^2
+\end{equation}
+\begin{equation}
+	N_{cz}=I\omega_z
+\end{equation}
+Можем записать закон сохранения момента импульса в таком виде:
+\begin{equation}
+	I_1\cdot\omega_{1z}=I_2\cdot\omega_{2z}
+\end{equation}
+
+\subsection{Энергетические соотношения для СМТ} 
+
+Для точки нам известно:
+\begin{equation}
+	W_k=\frac{mv^2}{2}
+\end{equation}
+\begin{equation}
+	\Delta W_k=W_k^\text{кон}-W_k^\text{нач}=A_{1-2}^\text{всех}=\int_{(1)}^{(2)}(\vec{F},d\vec{l})
+	=\int_{(1)}^{(2)}F_l\cdot{dl}
+\end{equation}
+% \textbf{Определение.} 
+\begin{gather}
+	W_{kc}=\sumn\frac{m_iv_i^2}{2}\\
+	\Delta W_{ki}=A_i^\text{всех},\quad\forall i\\
+	\Delta W_{kc}=\sumn\Delta W_{ki}=\sumn A_i^\text{всех}
+\end{gather}
+
+Поставим себе задачу: \textit{попробовать избавиться (по аналогии с импульсом и моментом импульса) от внутренних сил в <<$A^\text{всех}$>>}
+
+\begin{figure}[H]
+\begin{center}
+\begin{minipage}[h]{0.49\linewidth}
+	\centering
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0) ;
+		\coordinate (B) at (3,-3) ;
+		\draw[dashed] (A) node [above] {$m_i$} -- (B) node [below] {$m_j$};
+		\draw[fill=black] (A) circle (2pt) (B) circle (2pt);
+
+		\draw[->, >=latex,blue] (A) -- node[midway,fill=white!20, opacity=0.9] {$\vec{F}_{ji}$} ++(-45:1.5);
+		\draw[->, >=latex,blue] (B) -- node[midway,fill=white!20, opacity=0.9] {$\vec{F}_{ij}$} ++(135:1.5);
+	\end{tikzpicture}\end{minipage}
+\hfill 
+\begin{minipage}[h]{0.49\linewidth}
+\begin{gather}
+	\vec{F}_{ij}=-\vec{F}_{ji}\\
+	dA_i=\vec{F}_{ji}\cdot d\vec{l}_i\\
+	dA_j=\vec{F}_{ij}\cdot d\vec{l}_j\\
+	dA_i+dA_j=\vec{F}_{ji}(d\vec{l}_i-d\vec{l}_j)
+\end{gather}
+\end{minipage}
+\end{center}
+\end{figure}
+Печально, но это -- \textbf{не ноль в общем случае}. Избавиться от внутренних сил в <<$A^\text{всех}$>> не удалось.
+
+\subsubsection{Связь между $W_{kc}$ в различных системах отсчета. Теорема Кёнига}
+    
+Как всегда, нас будет интересовать выделенная система отсчета. Обозначим $K$ -- лабораторную систему отсчета, $K'$ -- движущуюся относительно ЛСО со скоростью $\vec{u}$.
+
+\begin{figure}[H]
+    \centering
+\begin{tikzpicture}
+    \draw[axis,->] (-1,0) -- (3,0) node[right, black] {$x$};
+
+    \draw[axis,->] (0,1) -- ++(0,1) node[right, black] {$K'$};С
+    \draw[axis,->] (-1,0) -- ++(0,3) node[right, black] {$K$};
+
+    \draw[force,->] (0,1.3) -- node[above, black] {$\vec{u}$} ++(1,0);
+    \draw[axis,->] (0,1) --  ++(2,0);
+    % \draw[force,->] (4,1.2) -- node[above, black] {$-\vec{v}$} ++(-1,0);
+
+    % \draw[line width=2pt] (0,1) -- ++(1,0);
+    % \draw[line width=2pt] (5,1.2) -- ++(-1,0);
+
+\end{tikzpicture}
+\end{figure}
+
+\begin{equation}
+	\vec{v}=\vec{v}{\,'}+\vec{u}
+\end{equation}
+\begin{equation}
+	W_k=\frac{mv^2}{2}=\frac{mv'^{2}}{2}+
+	\frac{mu^{2}}{2}+
+	m(\vec{v}{\,'},\vec{u})
+\end{equation}
+Для системы материальных точек
+\begin{equation}
+	W_{kc}=\sumn W_{ki}=\underbrace{\sumn\frac{m_iv'^{2}_i}{2}}_{\displaystyle \equiv W'_{kc}}+
+	\underbrace{\sumn\frac{m_iu^{2}}{2}}_{\displaystyle \equiv \frac{m_c u^2}{2}}+
+	\underbrace{\sumn m_i(\vec{v_i}{\,'},\vec{u})}_{\displaystyle \equiv (\vec{p}{\,'}_c,\vec{u})}
+\end{equation}
+
+\textbf{Если} движущаяся система  -- ЦМСО, тогда $\vec{p'}_c=\vec{p}^{\,*}_c=0$, $u=v_c$ и выполняется \textbf{теорема Кёнига:}
+\begin{equation}
+	W_{kc}=W_{kc}^{*}+\frac{m_cv_c^2}{2}
+\end{equation}
+
+\subsubsection{Потенциальная энергия СМТ. Закон сохранения механической энергии для СМТ}
+Для материальной точки нам известно:
+\begin{equation}
+	\underbrace{W_\text{п}^\text{нач}-W_\text{п}^\text{кон}}_{\displaystyle -\Delta W_\text{п}}=A_{1-2}^\text{конс}
+\end{equation}
+\begin{equation}
+	W_\text{мех}=W_\text{п}+W_\text{к}
+\end{equation}
+По нашему определению, 
+\begin{gather}
+	W_{\text{п}c}=\sumn W_{\text{п}i}\\
+	W_{\text{мех}_c}=\sumn W_{\text{мех}_i}
+\end{gather}
+\begin{equation}
+	-\Delta W_{\text{п}c}=\sumn A_{1-2}^\text{конс}=A_c=A_c^\text{внеш,конс}+A_c^\text{внутр,конс}
+\end{equation}
+
+\textbf{Пусть} все силы будут консервативными. \textbf{Тогда} 
+\begin{equation}
+	A_c=A_c^\text{внеш,конс}+A_c^\text{внутр,конс}=-\Delta W_{\text{п}c}
+\end{equation}
+\begin{equation}
+	A_c=\Delta W_{kc}
+\end{equation}
+{Иначе} говоря,
+\begin{gather}
+	-\Delta W_{\text{п}c}=\Delta W_{kc}\\
+	\Delta(W_{\text{п}c}+\Delta W_{kc})=0
+\end{gather}
+Получили \textbf{закон сохранения механической энергии для СМТ}:
+\begin{equation}
+	W_{\text{мех}_c}=\textrm{const}
+\end{equation}
+\end{document}
